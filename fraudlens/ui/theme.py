@@ -15,7 +15,7 @@ CSS_PATH = cfg.UI_STATIC_DIR / "fraudlens.css"
 
 def configure_page() -> None:
     st.set_page_config(
-        page_title=cfg.APP_TITLE,
+        page_title=f"{cfg.APP_TITLE} - {cfg.APP_TAGLINE}",
         page_icon=str(cfg.UI_STATIC_DIR / "favicon.png"),
         layout="centered",
         initial_sidebar_state="collapsed",
