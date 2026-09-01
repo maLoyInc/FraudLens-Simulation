@@ -37,5 +37,5 @@ Data/
 
 # Model artifacts are reproducible from training/scripts/03_train_xgboost.py.
 # Drop these two lines if the thesis submission needs the binaries in-repo.
-models/v2/*.joblib
-models/legacy/*.pkl
+models/v2/.joblib
+models/legacy/.pkl
