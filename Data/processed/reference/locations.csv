@@ -1,0 +1,984 @@
+state,city,street,zip,lat,long
+AK,Huslia,9455 Kathleen Brook Apt. 651,99746,65.6899,-156.292
+AK,Kaktovik,362 Brown Wall,99747,66.6933,-153.994
+AK,Wales,8580 Moore Cove,99783,64.7556,-165.6723
+AL,Bay Minette,118 Justin Extension,36507,30.8635,-87.7644
+AL,Bessemer,98897 Bennett Lodge,35022,33.3224,-86.9657
+AL,Birmingham,16285 Jessica Lights,35229,33.4629,-86.7904
+AL,Brantley,0043 Henry Plaza,36009,31.571,-86.2743
+AL,Cleveland,428 Michael Tunnel Apt. 377,35049,33.9778,-86.5598
+AL,Dadeville,550 Cunningham Squares,36853,32.8224,-85.7704
+AL,Eldridge,3256 Brooks Field,35554,33.9315,-87.6194
+AL,Fairhope,265 Christian Summit Suite 231,36532,30.5012,-87.8835
+AL,Gadsden,06393 Nancy Parkways Suite 855,35903,33.9845,-85.9077
+AL,Gadsden,622 Robin Run Suite 764,35901,34.048,-85.9246
+AL,Grand Bay,1447 Ryan Lodge,36541,30.4983,-88.3282
+AL,Grand Bay,32745 Silva Springs Suite 040,36541,30.4983,-88.3282
+AL,Grant,8957 Russell Key,35747,34.4959,-86.259
+AL,Hartford,64851 Cole Turnpike,36344,31.086,-85.7192
+AL,Huntsville,290 Kathryn Fall,35803,34.6205,-86.551
+AL,Huntsville,663 Ramirez Trace Apt. 951,35811,34.7789,-86.5438
+AL,Huntsville,754 Elliott Creek,35896,34.7543,-86.6546
+AL,Jones,4038 Smith Avenue,36749,32.5104,-86.8138
+AL,Mobile,250 Benjamin Hill Apt. 026,36617,30.7145,-88.0918
+AL,Montgomery,97405 Vazquez Plains,36111,32.3374,-86.2715
+AL,Mount Hope,524 Wu Spurs Suite 894,35651,34.4793,-87.4769
+AL,Paint Rock,5930 Rebecca Bridge Apt. 444,35764,34.7031,-86.3068
+AL,Phenix City,312 Eric Expressway Apt. 014,36869,32.4204,-85.0796
+AL,Phil Campbell,954 White Alley Apt. 251,35581,34.347,-87.7154
+AL,Plantersville,28812 Charles Mill Apt. 628,36758,32.6176,-86.9475
+AL,Ragland,33165 Larry Walks Suite 960,35131,33.7367,-86.1619
+AL,Sardis,32600 Cobb Curve,36775,32.2844,-86.992
+AL,Woodville,3206 Hall Divide Suite 282,35776,34.6689,-86.2296
+AR,Ash Flat,1025 Robin Square,72513,36.2201,-91.6421
+AR,Bauxite,72966 Shannon Pass Apt. 391,72011,34.5091,-92.4828
+AR,Cherokee Village,83685 Matthew Center Suite 870,72529,36.3011,-91.5281
+AR,Cord,3326 Hannah Fords,72524,35.8184,-91.3375
+AR,De Queen,25360 Mcgee Forge,71832,34.0442,-94.3386
+AR,De Witt,40624 Rebecca Spurs,72042,34.2853,-91.3336
+AR,Enola,68248 Deanna Land,72047,35.2087,-92.2123
+AR,Gregory,03368 Michelle Trail,72059,35.1791,-91.2594
+AR,Haynes,4349 Anna Flat Suite 214,72341,34.8838,-90.7666
+AR,Lepanto,7233 John Parks,72354,35.6069,-90.3359
+AR,Norman,42965 Christopher Fords Suite 659,71960,34.4596,-93.6743
+AR,Norman,7535 Amanda Manors Suite 293,71960,34.4596,-93.6743
+AR,Pea Ridge,539 Underwood Divide,72751,36.4539,-94.118
+AR,Roland,787 Allen Mount,72135,34.8829,-92.5192
+AR,Smackover,2970 Flores Brooks,71762,33.3398,-92.7442
+AR,Texarkana,057 Martinez Radial,71854,33.431,-93.8765
+AR,Thida,06959 Stephen Branch Suite 246,72165,35.5762,-91.4539
+AR,Viola,69608 Perez Mountain Apt. 006,72583,36.3924,-91.9932
+AR,Walnut Ridge,5796 Lee Coves Apt. 286,72476,36.0244,-90.9288
+AR,Winslow,8986 Fitzgerald Plains,72959,35.8312,-94.1187
+AZ,Humboldt,736 Moss Motorway Suite 549,86329,34.5189,-112.2523
+AZ,Mesa,01770 Kevin Lodge Suite 190,85201,33.4317,-111.8469
+AZ,Paradise Valley,72743 Brian Run,85253,33.5494,-111.9565
+AZ,Parks,05597 Michael Spurs,86018,35.2563,-111.95
+AZ,Phoenix,08056 Alvarado Club Suite 699,85086,33.8155,-112.1202
+AZ,Phoenix,72269 Elizabeth Field Apt. 132,85020,33.5623,-112.0559
+AZ,Superior,8172 Robertson Parkways Suite 072,85173,33.2887,-111.0985
+CA,Angwin,44417 Williams Manors,94508,38.5769,-122.4477
+CA,Azusa,244 Jeffery Rapids,91702,34.1248,-117.9031
+CA,Blairsden-Graeagle,8011 Chapman Tunnel Apt. 568,96103,39.8127,-120.6405
+CA,Buellton,417 Parks Route,93427,34.6209,-120.1922
+CA,Carlotta,010 Weaver Land,95528,40.507,-123.9743
+CA,Claremont,7538 Carrie Meadow Suite 574,91711,34.1092,-117.7183
+CA,Corona,7898 Wanda Springs,92882,33.8419,-117.6043
+CA,Daly City,508 Erin Mount,94015,37.6787,-122.478
+CA,Downey,056 Anthony Creek Suite 406,90240,33.9581,-118.1174
+CA,Fiddletown,3433 Jones Branch,95629,38.5234,-120.6763
+CA,Fields Landing,34180 Lopez Plaza,95537,40.7268,-124.2174
+CA,Glendale,671 Cynthia Key Suite 155,91206,34.1556,-118.2322
+CA,Glendale,725 Jo Trace Apt. 102,91206,34.1556,-118.2322
+CA,Greenview,3277 Fields Meadows Apt. 790,96037,41.5403,-122.9366
+CA,Grenada,5916 Susan Bridge Apt. 939,96038,41.6125,-122.5258
+CA,Hawthorne,17547 Stephen Turnpike Apt. 846,90250,33.9143,-118.3493
+CA,Helm,8088 Sherman Radial Suite 689,93627,36.4992,-120.0936
+CA,Huntington Beach,7529 Carter Well Suite 262,92648,33.6773,-118.0051
+CA,Indian Wells,8840 Miller Port Suite 645,92210,33.7163,-116.3381
+CA,June Lake,168 Michael Coves Suite 343,93529,37.7773,-119.0825
+CA,Laguna Hills,07712 Marcus Divide Apt. 831,92637,33.615,-117.7114
+CA,Lakeport,6343 Ramirez Skyway Apt. 518,95453,39.047,-122.9328
+CA,Los Angeles,386 James Roads Apt. 233,90014,34.0443,-118.2509
+CA,Mountain Center,901 Todd Gardens Apt. 466,92561,33.6401,-116.5567
+CA,Napa,8699 Lindsay Ford Apt. 486,94558,38.4549,-122.2564
+CA,Newhall,47029 Jimmy Tunnel Apt. 106,91321,34.3795,-118.523
+CA,Norwalk,094 Owens Underpass,90650,33.9056,-118.0818
+CA,Oakland,93914 Gregory Via,94619,37.7878,-122.1884
+CA,Palmdale,0638 Fred Ramp Suite 086,93552,34.5715,-118.0231
+CA,Parker Dam,06539 Gregory Mountains Suite 029,92267,34.298,-114.156
+CA,Port Costa,1250 Christopher Prairie Suite 016,94569,38.046,-122.1866
+CA,Sacramento,0371 Aimee Neck Suite 856,95827,38.5662,-121.3286
+CA,Sacramento,23383 Denise Pine Apt. 099,95842,38.6865,-121.3494
+CA,San Diego,126 Underwood Drive,92128,33.0067,-117.069
+CA,San Diego,3495 Williams Stream,92101,32.7185,-117.1593
+CA,San Diego,425 Caleb Point Apt. 050,92128,33.0067,-117.069
+CA,San Jose,2677 Byrd Village Suite 035,95148,37.3304,-121.7913
+CA,San Jose,44864 Melton Vista Suite 310,95148,37.3304,-121.7913
+CA,Santa Monica,07177 William Dale Apt. 547,90403,34.0287,-118.4924
+CA,Smith River,154 Hernandez Keys,95567,41.9404,-124.1587
+CA,Sun City,17666 David Valleys,92585,33.7467,-117.1721
+CA,Tomales,84079 Thomas Burgs,94971,38.2427,-122.9145
+CA,Vacaville,4940 Donald Throughway Apt. 219,95688,38.3847,-121.9887
+CA,Vinton,5758 Yates Center,96135,40.0235,-120.7986
+CA,Wendel,101 Carla Loop,96136,40.3406,-120.2824
+CO,Arvada,28223 Ward Summit Apt. 664,80005,39.8422,-105.1097
+CO,Aurora,368 Rollins Fort Apt. 076,80019,39.7656,-104.7069
+CO,Aurora,7470 John Tunnel Suite 937,80014,39.6662,-104.835
+CO,Broomfield,853 Miller Bypass Suite 802,80021,39.8854,-105.1139
+CO,Colorado Springs,20581 Pena Walks,80951,38.8881,-104.6556
+CO,Dumont,172 Leonard Island,80436,39.7532,-105.6356
+CO,Iliff,26678 Lisa Locks Apt. 904,80736,40.7692,-103.0968
+CO,Kirk,0547 Russell Ford Suite 574,80824,39.6171,-102.4776
+CO,Littleton,3379 Williams Common,80120,39.5994,-105.0044
+CO,Meredith,4456 Dunn Roads,81642,39.3199,-106.6596
+CO,Parker,3136 Silva Stream,80138,39.5102,-104.7216
+CO,Pueblo,3683 Parrish Circles,81005,38.2352,-104.66
+CO,Red Cliff,155 Gregory Mount Suite 791,81649,39.4584,-106.3851
+CT,East Canaan,6033 Young Track Suite 804,6024,42.0158,-73.2913
+CT,Higganum,6881 King Isle Suite 228,6441,41.4682,-72.5751
+CT,Marion,6157 Nichols Mews,6444,41.7918,-72.7188
+CT,Plymouth,94431 Matthew Mall Suite 296,6782,41.6611,-73.0449
+CT,Preston,204 Ashley Neck Apt. 169,6365,41.5224,-71.9934
+DC,Washington,20937 Reed Lakes Apt. 271,20012,38.9757,-77.0282
+DC,Washington,2989 Murray Inlet,20017,38.9367,-76.994
+DC,Washington,330 Montoya Ramp,20036,38.9087,-77.0414
+DE,Georgetown,9612 Robert Light Apt. 340,19947,38.679,-75.3932
+FL,Bonita Springs,08932 Bonnie Stravenue,34135,26.3771,-81.7334
+FL,Brandon,034 Kimberly Mountains,33510,27.9551,-82.2966
+FL,Cape Coral,329 Emily Cape,33909,26.6939,-81.9452
+FL,Clearwater,0984 Amanda Corners Apt. 297,33762,27.8942,-82.6746
+FL,Clearwater,6970 Blake Trail,33760,27.9004,-82.7152
+FL,Deltona,5097 Jodi Vista Suite 811,32725,28.8989,-81.2473
+FL,Fort Myers,87665 Karen Mill Apt. 586,33967,26.4722,-81.8122
+FL,Grand Ridge,125 Kristen Dale,32442,30.7148,-85.021
+FL,Haines City,97070 Anderson Land,33844,28.0758,-81.5929
+FL,Hampton,03921 Cole Mission Suite 882,32044,29.8575,-82.1483
+FL,Jay,358 Pruitt Square,32565,30.8985,-87.1332
+FL,Key West,838 Franklin Prairie Apt. 902,33040,24.6557,-81.3824
+FL,Lakeland,62931 Ralph Court,33813,27.9611,-81.9398
+FL,Lakeland,670 Le Meadows Suite 250,33811,27.9865,-82.0139
+FL,Lakeland,84033 Pitts Overpass,33809,28.1762,-81.9591
+FL,Lanark Village,118 Cabrera Springs Apt. 105,32323,29.8826,-84.5964
+FL,Loxahatchee,244 Abbott Parkway,33470,26.7383,-80.27600000000001
+FL,Melbourne,7428 Martinez Flats,32935,28.1384,-80.6524
+FL,Naples,0611 Stafford Valley Suite 504,34112,26.1184,-81.7361
+FL,Naples,199 Patterson Fords Apt. 132,34112,26.1184,-81.7361
+FL,Naples,7351 Cindy Well Suite 099,34120,26.3304,-81.5871
+FL,Orange Park,8498 Lisa Stream,32065,30.1382,-81.7742
+FL,Port Charlotte,95351 Sullivan Viaduct Apt. 239,33981,26.9379,-82.2388
+FL,Port Richey,542 Howe Mission Apt. 092,34668,28.3011,-82.6927
+FL,Port Saint Lucie,49120 Regina Island Apt. 170,34953,27.2625,-80.3793
+FL,Saint James City,27203 Darrell Landing,33956,26.529,-82.0916
+FL,Saint Petersburg,3337 Lisa Divide,33710,27.7898,-82.7243
+FL,Sebring,2924 Bobby Trafficway,33872,27.4703,-81.4872
+FL,Tampa,75703 Hernandez Corner Suite 348,33620,28.06,-82.4079
+FL,Titusville,32941 Krystal Mill Apt. 552,32780,28.5697,-80.8191
+FL,Umatilla,138 Stephen Ridges Apt. 978,32784,28.9254,-81.6801
+FL,Vero Beach,94225 Smith Springs Apt. 617,32960,27.633000000000003,-80.4031
+FL,Wauchula,9579 Porter Tunnel,33873,27.5517,-81.8074
+FL,West Palm Beach,292 Lowe Dam Suite 858,33417,26.7197,-80.1248
+FL,West Palm Beach,92213 Lee Well,33404,26.7832,-80.0638
+GA,Allentown,96122 Steven Flat,31003,32.6064,-83.2095
+GA,Alpharetta,9345 Spencer Junctions Suite 183,30009,34.077,-84.3033
+GA,Avera,82201 Bradley Radial Suite 703,30803,33.141,-82.515
+GA,Brinson,62130 Miller Square Suite 785,39825,30.9788,-84.7373
+GA,Cuthbert,0953 David Skyway,39840,31.7706,-84.7936
+GA,Darien,37732 Joe Courts Apt. 752,31305,31.3826,-81.4312
+GA,Du Pont,995 Benjamin Bypass,31630,31.0,-82.8555
+GA,Girard,380 Martin Mission,30426,33.0437,-81.7106
+GA,Hahira,4900 Curtis Gardens Suite 952,31632,30.9416,-83.3574
+GA,Irwinton,6003 Brady Shoal Apt. 449,31042,32.8088,-83.17399999999999
+GA,Juliette,5619 Mendoza Inlet,31046,33.1194,-83.8235
+GA,Kings Bay,019 Kimberly Light Apt. 039,31547,30.7906,-81.5607
+GA,Milner,431 Tracy Expressway,30257,33.141,-84.1759
+GA,Norman Park,393 Carroll Route Suite 197,31771,31.2462,-83.6549
+GA,Sea Island,62631 Ashley Ramp Apt. 965,31561,31.1989,-81.3322
+GA,Springfield,7955 Allen Orchard Apt. 336,31329,32.3697,-81.3618
+GA,Surrency,165 Jerry Meadows Suite 460,31563,31.6489,-82.1982
+GA,Valdosta,7337 Browning Falls Suite 027,31605,30.946,-83.2474
+GA,Varnell,493 Fitzgerald Fields Suite 454,30756,34.9298,-84.9885
+GA,Vienna,73869 Connie Prairie,31092,32.0913,-83.7922
+GA,West Green,82073 Jessica Camp,31567,31.6143,-82.7243
+GA,Whigham,222 Freeman Islands,39897,30.8836,-84.3246
+HI,Honokaa,2711 Duran Pines,96727,20.0827,-155.488
+HI,Paauilo,78117 George Mountains,96776,20.0271,-155.3697
+IA,Alton,210 Dean Causeway Suite 130,51003,42.9782,-96.0173
+IA,Avoca,519 Jerry Views,51521,41.4768,-95.3509
+IA,Battle Creek,02110 Lucas Freeway Suite 517,51006,42.3327,-95.6045
+IA,Belmond,384 Newman Forks Apt. 370,50421,42.8511,-93.62
+IA,Birmingham,23843 Scott Island,52535,40.8626,-91.9534
+IA,Clarinda,1831 Faith View Suite 653,51632,40.7491,-95.038
+IA,Clutier,13613 Hammond Ferry,52217,42.0789,-92.3763
+IA,Curlew,93970 Trujillo Causeway,50527,42.9633,-94.7975
+IA,Des Moines,1535 Ryan Burgs Suite 919,50312,41.5855,-93.6719
+IA,Des Moines,95793 Andrea Ville Suite 533,50314,41.603,-93.633
+IA,Early,1976 Tyler Underpass,50535,42.4483,-95.1726
+IA,Elkhart,7566 Thompson Creek Apt. 827,50073,41.8114,-93.4855
+IA,Hedrick,043 Hanson Turnpike,52563,41.1826,-92.3097
+IA,Lohrville,9379 Vanessa Run Apt. 400,51453,42.2619,-94.5566
+IA,Moscow,89297 Wilson Green Suite 601,52760,41.5646,-91.0859
+IA,Moulton,21447 Powell Circle,52572,40.6866,-92.6833
+IA,Ollie,69252 Oconnor Alley Apt. 153,52576,41.2001,-92.1354
+IA,Oran,91542 Marissa Shores Apt. 053,50664,42.7012,-92.0762
+IA,Princeton,5045 Emily Wall,52768,41.6858,-90.3706
+IA,Rockwell,6807 Jacob Skyway Apt. 331,50469,43.0032,-93.2167
+IA,Webster City,838 Dan Haven Suite 003,50595,42.4657,-93.8262
+IA,Whittemore,610 Samantha Park Suite 149,50598,43.0261,-94.4064
+ID,Malad City,594 White Dale Suite 530,83252,42.1808,-112.262
+ID,Meridian,4503 Patricia Route,83646,43.6498,-116.4306
+ID,Mesa,7020 Doyle Stream Apt. 951,83643,44.6255,-116.4493
+ID,Spirit Lake,557 Lynn Garden Suite 907,83869,47.9657,-116.868
+IL,Bonfield,6778 Campos Field,60913,41.1573,-88.0619
+IL,Cisco,611 Michael Rue,61830,39.9972,-88.6962
+IL,Dieterich,54822 Hill Forks,62424,39.0319,-88.4074
+IL,Dongola,32343 Saunders Course,62926,37.3712,-89.1349
+IL,Eagarville,91644 Crystal Drives,62023,39.1118,-89.7855
+IL,Eureka,1497 West Gateway,61530,40.7152,-89.2706
+IL,Galatia,6963 Russell Causeway Suite 231,62935,37.8274,-88.6235
+IL,Goreville,083 Karen Island Apt. 656,62939,37.575,-88.9655
+IL,Joliet,82468 Michelle Village Suite 556,60432,41.5378,-88.0572
+IL,Loami,14017 Thomas Plaza,62661,39.6704,-89.8588
+IL,Logan,75533 Tamara Valleys,62856,37.9943,-88.9417
+IL,Lomax,908 Brooks Brook,61454,40.6761,-91.0391
+IL,Mc Nabb,920 Patrick Light,61335,41.173,-89.2187
+IL,Moro,2193 Osborne Run Apt. 789,62067,38.9318,-89.9618
+IL,Mulberry Grove,85430 Julie Trafficway Suite 792,62262,38.9311,-89.2463
+IL,Murrayville,4720 Anna Ways,62668,39.5723,-90.2379
+IL,New Boston,721 Jacqueline Brooks,61272,41.2153,-90.9879
+IL,New Memphis,755 Solis Isle Suite 075,62266,38.4857,-89.6816
+IL,Nokomis,7644 Joseph Fields,62075,39.3036,-89.2853
+IL,Oakford,3854 Lauren Springs Suite 648,62673,40.0994,-89.9601
+IL,Olmsted,696 Matthew Ford Suite 157,62970,37.1935,-89.0933
+IL,Payson,2632 Stevens Light Apt. 213,62360,39.8153,-91.2627
+IL,Pembroke Township,6296 John Keys Suite 858,60958,41.0646,-87.5917
+IL,Putnam,28777 Stewart Plains Apt. 495,61560,41.1949,-89.4409
+IL,Ringwood,622 Williams Trafficway,60072,42.4048,-88.3054
+IL,Rossville,6313 Scott Trace,60963,40.3625,-87.6692
+IL,Schaumburg,478 Donovan Corners Apt. 803,60193,42.0144,-88.0935
+IL,Smithfield,9242 Vanessa Ramp Apt. 525,61477,40.4855,-90.2856
+IL,Streator,7281 Joshua Mills Apt. 077,61364,41.1225,-88.8307
+IL,Tamaroa,92021 Miranda Meadows,62888,38.138000000000005,-89.2231
+IL,Tower Hill,4936 Michelle Points,62571,39.39,-88.9597
+IL,West Frankfort,4407 Lisa Course,62896,37.8979,-88.9307
+IL,Wilmette,0423 Kirby Field Suite 623,60091,42.0765,-87.7246
+IN,Andrews,3653 Ryan Crossroad,46702,40.8618,-85.6067
+IN,Bristow,39218 Baker Shoals,47515,38.1981,-86.6821
+IN,Carlisle,4923 Campbell Pines Suite 717,47838,38.9763,-87.3667
+IN,Central,144 Martinez Curve,47110,38.097,-86.1723
+IN,Churubusco,954 Green Wall,46723,41.229,-85.3244
+IN,Claypool,5273 Joseph Isle Suite 518,46510,41.1165,-85.8686
+IN,Clinton,56261 Keith Plaza,47842,39.6591,-87.4208
+IN,Greenwood,166 Lisa Fords,46143,39.596,-86.1309
+IN,Harrodsburg,85344 Smith Gateway Apt. 280,47434,39.013000000000005,-86.5457
+IN,Highland,701 Wilson Divide,46322,41.55,-87.4569
+IN,Indianapolis,08236 Kim Hill,46254,39.849,-86.272
+IN,Indianapolis,209 Austin Stream Apt. 231,46290,39.9347,-86.1633
+IN,Kingsford Heights,6114 Adams Harbor Suite 096,46346,41.4802,-86.6919
+IN,Leo,707 Anthony Causeway,46765,41.2249,-85.0301
+IN,Liberty Mills,343 Joshua Views,46946,41.0356,-85.7358
+IN,Moores Hill,26615 Nelson Lane,47032,39.0945,-85.0638
+IN,New Goshen,702 Tabitha Drive,47863,39.5803,-87.4616
+IN,Noblesville,91745 Davis Crossing,46060,40.0563,-86.0163
+IN,North Judson,822 Austin Spur,46366,41.2244,-86.6966
+IN,Oolitic,3310 Davidson Spurs Apt. 107,47451,38.8938,-86.5246
+IN,Prairie Creek,2056 Michael Wells Apt. 348,47869,39.4336,-87.4101
+IN,Veedersburg,86542 Jessica Fords Apt. 706,47987,40.1186,-87.2602
+IN,Williams,919 Miller Isle,47470,38.7735,-86.6285
+KS,Burrton,00315 Ashley Valleys,67020,38.0261,-97.6666
+KS,De Soto,7952 Karen Pike,66018,38.9462,-94.9714
+KS,Dexter,31954 Eugene Lane Suite 572,67038,37.1641,-96.6917
+KS,Dresden,8829 Steele Station,67635,39.6094,-100.4112
+KS,Easton,240 Tracy Forges,66020,39.3391,-95.0999
+KS,Esbon,3645 Atkins Island Apt. 238,66941,39.7562,-98.4462
+KS,Garfield,4483 Sharp Ferry Apt. 468,67529,38.0649,-99.2374
+KS,Grenola,741 Adams Knolls,67346,37.3668,-96.4396
+KS,Holcomb,889 Sarah Station Suite 624,67851,37.9931,-100.9893
+KS,Hudson,9331 Robert Passage Suite 327,67545,38.1485,-98.6408
+KS,Mc Cracken,13108 Jennifer Passage,67556,38.5957,-99.554
+KS,Ozawkie,25955 Amy Via,66070,39.2136,-95.4404
+KS,Topeka,621 Smith Hollow Apt. 738,66616,39.0645,-95.6413
+KS,Topeka,9486 Joel Common Suite 554,66618,39.1329,-95.7023
+KS,Utica,29156 Mark Park Apt. 108,67584,38.6411,-100.138
+KS,Wichita,0189 Emily Prairie,67232,37.6395,-97.1714
+KS,Wichita,03090 Fisher Forges Apt. 200,67216,37.6223,-97.3136
+KY,Ashland,3305 Angel Grove Apt. 465,41101,38.4722,-82.6461
+KY,Big Creek,61107 Edwards Dam Apt. 463,40914,37.1046,-83.5706
+KY,Cadiz,27909 Peter Motorway,42211,36.802,-87.8286
+KY,Cranks,9016 Jordan Bypass Apt. 516,40820,36.7558,-83.1838
+KY,Cromona,010 Salazar Walk,41810,37.1788,-82.695
+KY,Deane,0374 Courtney Islands Apt. 400,41812,37.2409,-82.7696
+KY,Dubre,06808 Ryan Valleys,42731,36.8421,-85.5396
+KY,Elizabethtown,7838 Jason Squares,42701,37.6848,-85.8784
+KY,Hazel,22502 Baker Mount Suite 241,42049,36.5422,-88.3319
+KY,Irvine,907 Courtney Via Apt. 896,40336,37.6858,-83.9862
+KY,Louisville,005 Cody Estates,40202,38.2507,-85.7476
+KY,Louisville,0900 Beverly Landing,40209,38.1901,-85.7519
+KY,Mallie,956 Sanchez Highway,41836,37.2692,-82.9161
+KY,Maysville,6412 Elizabeth Gardens Suite 633,41056,38.6207,-83.8067
+KY,Parkers Lake,7314 Johnson Square Apt. 296,42634,36.8347,-84.4436
+KY,Pewee Valley,5537 Jessica Plaza,40056,38.3039,-85.4834
+KY,River,3423 Michael Canyon Suite 276,41254,37.8795,-82.7251
+KY,Rochester,3786 Hale Corners,42273,37.2048,-86.8592
+KY,Saint Francis,609 Hunt Grove,40062,37.6047,-85.4251
+KY,Smiths Grove,302 Christina Islands,42171,37.0581,-86.1938
+KY,Stephensport,8973 Mark Drive,40170,37.9048,-86.524
+KY,Westport,43235 Mckenzie Views Apt. 837,40077,38.4921,-85.4524
+LA,Baton Rouge,50872 Alex Plain Suite 088,70808,30.4066,-91.1468
+LA,Delhi,4511 Choi Lock,71232,32.3929,-91.4714
+LA,Denham Springs,458 Phillips Island Apt. 768,70726,30.459,-90.9027
+LA,Egan,8925 Nicholas Points,70531,30.251,-92.5002
+LA,Fordoche,67632 Martin Gateway,70732,30.6576,-91.6264
+LA,Gretna,868 Brady Mill Apt. 837,70056,29.8872,-90.0331
+LA,Kenner,5901 Foster Pine,70062,29.9912,-90.2479
+LA,Kenner,6905 Hutchinson Inlet,70065,30.0252,-90.2522
+LA,Madisonville,93121 Zavala Extensions,70447,30.4287,-90.1773
+LA,Metairie,27823 Andrew Underpass Suite 948,70003,29.9975,-90.2146
+LA,Saint Amant,65417 Walsh Radial Suite 691,70774,30.2385,-90.8435
+LA,Spearsville,529 West Key,71277,32.955,-92.587
+LA,Tickfaw,950 Dunn Squares,70466,30.5668,-90.482
+LA,West Monroe,246 Stewart Green Suite 149,71291,32.5317,-92.176
+MA,Ashfield,78652 Scott Ports,1330,42.5232,-72.811
+MA,Barnstable,5204 Robinson Plaza Suite 897,2630,41.6983,-70.3001
+MA,Lawrence,329 Michael Extension,1843,42.6911,-71.1605
+MA,Methuen,4005 Dana Glens,1844,42.728,-71.181
+MA,North Brookfield,06730 Joshua Isle Suite 555,1535,42.2665,-72.0821
+MA,Paxton,755 Gardner Heights Apt. 420,1612,42.3066,-71.9202
+MA,Sheffield,58665 Nicholas Ford Suite 348,1257,42.1001,-73.3611
+MA,Shrewsbury,37910 Ward Lights,1545,42.2848,-71.7205
+MA,Stoneham,7911 Campbell Crossing Apt. 725,2180,42.4828,-71.0978
+MD,Annapolis,05561 Farrell Crescent,21405,39.0305,-76.5515
+MD,Cecilton,7055 Fernandez Estates Apt. 676,21913,39.4015,-75.8654
+MD,Chester,0881 Lori Pines,21619,38.9583,-76.2842
+MD,Corriganville,56812 Francis Courts,21524,39.6967,-78.8031
+MD,Gaithersburg,493 Todd Views,20882,39.2335,-77.1458
+MD,Great Mills,35822 Clayton Street Apt. 679,20634,38.2674,-76.4954
+MD,Hancock,622 Bradley Knoll Apt. 758,21750,39.6991,-78.1762
+MD,Harwood,507 John Overpass Suite 424,20776,38.8582,-76.6145
+MD,Kensington,31472 Cody Place Suite 740,20895,39.0298,-77.0793
+MD,Kingsville,83555 Melinda Spurs,21087,39.4558,-76.4147
+MD,Linthicum Heights,17355 Mendoza Bypass Suite 059,21090,39.2092,-76.6681
+MD,Manchester,47152 Clayton Burg,21102,39.6747,-76.8941
+MD,Pikesville,086 Pierce Cove,21208,39.3764,-76.729
+MD,Queen Anne,10376 Bullock Rapid,21657,38.9456,-75.9777
+MD,Queenstown,7320 Jennifer Forges,21658,39.0026,-76.1424
+MD,Scotland,382 Williams Stream Suite 197,20687,38.0828,-76.3477
+MD,Tuscarora,8617 Holmes Terrace Suite 651,21790,39.2667,-77.5101
+MD,Tyaskin,86882 Desiree Camp Suite 047,21865,38.2833,-75.8465
+MD,Whaleyville,27479 Reeves Dale,21872,38.4121,-75.2811
+ME,Auburn,87227 Tapia Burgs,4210,44.0948,-70.23899999999999
+ME,Bowdoin,854 Walker Dale Suite 488,4287,44.0575,-69.9656
+ME,Brooklin,426 Mark Ports,4616,44.2541,-68.5565
+ME,East Andover,3270 Scott Islands,4226,44.6084,-70.6993
+ME,Freeport,9383 Garrison Inlet Apt. 548,4032,43.857,-70.1031
+ME,Kittery Point,82448 Tucker Cliff,3905,43.0976,-70.7121
+ME,Newport,18316 Cannon Place,4953,44.8393,-69.2675
+ME,Nobleboro,12444 Jacob Pines,4555,44.0943,-69.4828
+ME,Parsonsfield,651 Miller Common,4047,43.745,-70.9092
+ME,Scarborough,6274 David Oval Suite 725,4074,43.5835,-70.3457
+ME,Steuben,6114 Moran Way,4680,44.4971,-67.9503
+ME,West Bethel,737 Thomas Wall Apt. 502,4286,44.402,-70.8601
+ME,Winthrop,400 Zuniga Pine,4364,44.3229,-69.9576
+MI,Afton,3304 Hernandez Run,49705,45.3637,-84.4695
+MI,Arcadia,212 Mary Stream,49613,44.5232,-86.2061
+MI,Baroda,639 Cruz Islands,49101,41.9488,-86.4913
+MI,Bay City,09419 Lewis Rapids,48706,43.6088,-83.95299999999999
+MI,Cedar,836 Stephanie Union,49621,44.8605,-85.8138
+MI,Detroit,04139 Johnson Prairie Suite 401,48206,42.3749,-83.1087
+MI,Detroit,152 James Centers Apt. 768,48221,42.426,-83.15
+MI,Detroit,88325 Brandon Greens Apt. 477,48202,42.377,-83.0796
+MI,Detroit,97689 Davis Point Apt. 967,48214,42.3669,-82.9938
+MI,East China,8611 Tricia Fork,48054,42.7769,-82.5437
+MI,Elberta,0069 Robin Brooks Apt. 695,49628,44.5995,-86.2141
+MI,Elk Rapids,24318 Dixon Mills,49629,44.8955,-85.4082
+MI,Falmouth,5783 Evan Roads Apt. 465,49632,44.2529,-85.01700000000001
+MI,Gaines,48635 Paul Hills,48436,42.8813,-83.8855
+MI,Goodrich,26544 Andrea Glen,48438,42.9147,-83.4845
+MI,Lakeview,145 Jeffrey Key Suite 668,48850,43.4269,-85.2924
+MI,Livonia,1125 Ray Track,48154,42.3958,-83.3772
+MI,Luzerne,6251 Payne Flats Apt. 581,48636,44.6001,-84.2931
+MI,Manistique,516 Brown Parks,49854,46.0062,-86.2555
+MI,Mount Clemens,3325 Gregory Square,48043,42.5978,-82.8823
+MI,Munith,952 Joseph Throughway,49259,42.3703,-84.2485
+MI,Muskegon,821 Solis Points,49440,43.2326,-86.2492
+MI,Oxford,27386 Snyder Station,48371,42.8223,-83.2829
+MI,Pointe Aux Pins,7369 Gabriel Tunnel,49775,45.7549,-84.447
+MI,Republic,445 Jerry Lights Apt. 081,49879,46.368,-87.9938
+MI,Riverview,54220 April Union Suite 403,48193,42.1782,-83.2461
+MI,Romulus,61390 Hayes Port,48174,42.2203,-83.3583
+MI,Rumely,04611 Sandra Spring Suite 059,49826,46.3481,-87.0436
+MI,Southfield,81261 Garcia Underpass Suite 741,48034,42.4969,-83.2911
+MI,Warren,615 Clarke Spring Apt. 172,48088,42.5164,-82.9832
+MI,Warren,79414 Clark Lakes Suite 966,48088,42.5164,-82.9832
+MI,Wetmore,561 Little Plain Apt. 738,49895,46.3535,-86.6345
+MN,Afton,923 Jordan Road,55001,44.8696,-92.8234
+MN,Bigelow,273 Phillip Throughway,56117,43.5336,-95.6515
+MN,Collegeville,454 Sawyer Forks Apt. 231,56321,45.5783,-94.4199
+MN,Comfrey,354 Gutierrez Gateway,56019,44.1111,-94.9134
+MN,Emmons,3896 Gilmore Mill,56029,43.5089,-93.4824
+MN,Georgetown,2918 David Spurs,56546,47.0999,-96.727
+MN,Halma,5270 Megan Burg Suite 756,56729,48.6669,-96.5969
+MN,Halstad,248 James Squares Apt. 838,56548,47.3551,-96.798
+MN,Hawley,55505 Christy Via,56549,46.9777,-96.4092
+MN,Hills,193 Catherine Ways,56138,43.5335,-96.3645
+MN,Hovland,15315 Vaughn Park Suite 356,55606,47.8342,-90.0476
+MN,Isanti,87896 Lisa Burgs,55040,45.4682,-93.2266
+MN,Lamberton,153 Mccullough Springs Apt. 857,56152,44.2378,-95.2739
+MN,Lonsdale,892 Solis Neck,55046,44.4477,-93.4252
+MN,Minneapolis,2887 Olson Road Suite 439,55428,45.0632,-93.3811
+MN,Minneapolis,5097 Martin Ridges,55403,44.9673,-93.2828
+MN,Minnesota Lake,797 Jennifer Loop Suite 634,56068,43.8295,-93.8282
+MN,Orr,956 Paul Fields Suite 108,55771,48.1439,-92.8561
+MN,Randolph,976 Hubbard Lodge,55065,44.5274,-93.0196
+MN,Ranier,4293 Ramirez Squares,56668,48.6031,-93.2977
+MN,Remer,27720 Martin Hills,56672,47.0874,-93.9196
+MN,Saint Paul,598 Martin Pine Suite 365,55128,44.9913,-92.9487
+MN,Sauk Rapids,7309 Sophia Causeway Suite 702,56379,45.604,-94.1591
+MN,Stanchfield,2807 Parker Station Suite 080,55080,45.6675,-93.2433
+MN,Watertown,1145 Tony Drive Suite 080,55388,44.9595,-93.8482
+MN,Winger,0665 Lisa Alley,56592,47.5375,-95.9941
+MO,Arnold,9554 Flores Drive,63010,38.4305,-90.387
+MO,Ballwin,0356 Sarah Light,63021,38.577,-90.5255
+MO,Blairstown,2788 Brittney Island,64726,38.5319,-93.9221
+MO,Brashear,3867 Susan Corners Apt. 883,63533,40.1959,-92.4333
+MO,Browning,182 Sergio Summit Apt. 129,64630,40.029,-93.1607
+MO,Camden,304 Ryan Port Suite 335,64017,39.2048,-94.0259
+MO,Cardwell,5278 Sarah Station Apt. 009,63829,36.0434,-90.2907
+MO,Centerview,7618 Gonzales Mission,64019,38.7897,-93.8702
+MO,Clarksville,0688 Kevin Manor,63336,39.3465,-90.9362
+MO,Independence,02018 Gary Key Apt. 911,64058,39.1412,-94.3515
+MO,Kansas City,2819 Luke Greens Suite 563,64114,38.9621,-94.5959
+MO,Kissee Mills,7290 Ashlee Keys,65680,36.6704,-93.0377
+MO,Louisiana,0207 Griffith Plains Apt. 544,63353,39.4336,-91.0664
+MO,Luray,558 Michael Estates,63453,40.4931,-91.8912
+MO,Matthews,471 Marquez Prairie Suite 680,63867,36.7154,-89.6287
+MO,Meadville,624 Hale Springs Apt. 572,64659,39.7795,-93.3014
+MO,Mound City,0362 Anderson Wall,64470,40.1362,-95.2138
+MO,Odessa,9431 Amanda Mills,64076,38.9829,-93.9757
+MO,Owensville,852 Thomas Well Suite 339,65066,38.3511,-91.4867
+MO,Pleasant Hill,64965 Morris Hollow Suite 323,64080,38.7859,-94.244
+MO,Redford,1898 Parker Fork Apt. 057,63665,37.3272,-91.0243
+MO,Rocky Mount,19838 Tonya Prairie Apt. 947,65072,38.2911,-92.7059
+MO,Saint Louis,169 Edward Inlet,63131,38.6171,-90.4504
+MO,Syracuse,66035 Benjamin Villages,65354,38.6547,-92.8929
+MO,Unionville,715 Joy Prairie,63565,40.4815,-92.9951
+MO,Utica,543 Ware Path Apt. 593,64686,39.7417,-93.6289
+MO,Wappapello,16104 Diane Walk Suite 352,63966,36.9766,-90.2848
+MO,Wheaton,433 Blake Roads Suite 967,64874,36.7651,-94.0492
+MO,Williamsburg,6458 Roberson Alley,63388,38.8874,-91.7689
+MS,Bruce,3307 Ferguson Way,38915,34.0066,-89.3484
+MS,Coffeeville,5569 Phillips Neck Apt. 003,38922,33.9215,-89.6782
+MS,Duncan,872 Justin Views Suite 746,38740,34.047,-90.7652
+MS,Florence,742 Oneill Shore,39073,32.153,-90.1217
+MS,Heidelberg,17819 Jose Mount Suite 657,39439,31.882,-88.9981
+MS,Jackson,66234 Hall Lock Suite 758,39211,32.3739,-90.1293
+MS,Mayersville,555 Michael Burgs,39113,32.9013,-91.0286
+MS,Meadville,5069 Scott Pass Apt. 654,39653,31.4285,-90.8578
+MS,Moorhead,8030 Beck Motorway,38761,33.4783,-90.5142
+MS,Moss Point,33010 Ford Harbor Apt. 887,39562,30.5471,-88.4927
+MS,Paris,3872 Matthew Skyway,38949,34.1992,-89.382
+MS,Pearlington,44951 Williams Brooks,39572,30.2508,-89.6011
+MS,Ridgeland,5654 Peterson Land,39157,32.4122,-90.1207
+MS,Sontag,26975 Richardson Mills Apt. 402,39665,31.6453,-90.1801
+MS,Sturgis,67089 Caitlin Meadow Apt. 905,39769,33.357,-89.0473
+MS,Sunflower,3789 Mark Walks,38778,33.5567,-90.5451
+MS,University,250 Carrie Throughway,38677,34.3396,-89.5736
+MT,Alder,13956 Hughes Causeway Suite 124,59710,45.1939,-112.0568
+MT,Belgrade,1833 Jeanette Stravenue,59714,45.7801,-111.1439
+MT,Boulder,9443 Cynthia Court Apt. 038,59632,46.2306,-112.1138
+MT,Bridger,713 Scott Pike Apt. 712,59014,45.2857,-108.9082
+MT,Heart Butte,11014 Chad Lake Apt. 573,59448,48.2777,-112.8456
+MT,Sula,135 Joseph Mountains,59871,45.8433,-113.8748
+MT,Turner,9795 Lori Island Suite 346,59542,48.8328,-108.3961
+NC,Andrews,200 Christie Mills Apt. 307,28901,35.1959,-83.8228
+NC,Bailey,551 Zachary Freeway,27807,35.8072,-78.0892
+NC,Bolton,478 Alexandria Mount,28423,34.3091,-78.3372
+NC,Collettsville,542 Steve Curve Suite 011,28611,35.9946,-81.7266
+NC,Creedmoor,9727 Deleon Mountain,27522,36.1124,-78.6476
+NC,Crouse,880 Andrea Greens Suite 241,28033,35.4359,-81.3385
+NC,Fayetteville,3283 James Station,28314,35.0583,-79.008
+NC,Gibsonville,9047 Rodriguez Turnpike,27249,36.1183,-79.5685
+NC,Grimesland,07943 Davis River,27837,35.558,-77.2566
+NC,Grover,1441 Bradley Place,28073,35.1836,-81.4552
+NC,Haw River,861 Karen Common,27258,36.0424,-79.3242
+NC,Mooresville,25748 John Wells,28117,35.584,-80.8685
+NC,Moravian Falls,561 Perry Cove,28654,36.0788,-81.1781
+NC,Morven,370 Lisa Estate,28119,34.8511,-80.0025
+NC,North Wilkesboro,25961 Beverly Union Apt. 042,28659,36.2017,-81.1286
+NC,Pelham,369 Cochran Radial,27311,36.4899,-79.4736
+NC,Pembroke,838 Amy Street Suite 107,28372,34.6902,-79.1834
+NC,Summerfield,265 Mullen Park Apt. 307,27358,36.2245,-79.8901
+NC,Walkertown,055 Stephanie Turnpike Suite 559,27051,36.18,-80.1629
+NC,Wilmington,594 Berry Lights Apt. 392,28405,34.2651,-77.867
+NC,Wilmington,8206 Harris Extensions Apt. 996,28412,34.1572,-77.9141
+ND,Christine,6139 Mark Rapid Apt. 651,58015,46.5522,-96.7909
+ND,Coleharbor,071 Wise Trace,58531,47.5196,-101.2332
+ND,Michigan,337 Michael Harbors Suite 722,58259,48.0204,-98.1186
+ND,Noonan,1323 Derek Mission,58765,48.8856,-103.0098
+ND,Palermo,24255 Bryan Square,58769,48.3396,-102.24
+ND,Reynolds,9853 Flynn Hollow Apt. 602,58275,47.7068,-97.2092
+ND,Rhame,13299 Patrick Terrace,58651,46.1664,-103.7079
+ND,Shields,0925 Lang Extensions,58569,46.1838,-101.2589
+ND,Wilton,31701 Tucker Square Suite 893,58579,47.1709,-100.7944
+NE,Brainard,785 Kevin Walk Suite 237,68626,41.1832,-96.9882
+NE,Campbell,840 Werner Lock Apt. 852,68932,40.2967,-98.737
+NE,Carroll,7302 Samantha Mission,68723,42.277,-97.1926
+NE,Fullerton,5053 Bell Crescent Apt. 255,68638,41.36600000000001,-98.0054
+NE,Holstein,53696 Laura Radial,68950,40.4542,-98.6538
+NE,Hooper,7178 Willis Drive,68031,41.6414,-96.5232
+NE,Howells,88794 Mandy Lodge Apt. 874,68641,41.6964,-96.9858
+NE,Hubbell,5205 Annette Islands Apt. 043,68375,40.0456,-97.4735
+NE,Manley,2622 Reynolds Isle,68403,40.9207,-96.168
+NE,Nelson,5452 Patricia Inlet Apt. 280,68961,40.201,-98.0684
+NE,North Loup,474 Allen Haven,68859,41.4972,-98.7858
+NE,Omaha,707 Butler Parkways Apt. 747,68117,41.2064,-95.9953
+NE,Ravenna,5812 Ramos Oval Suite 598,68869,41.0233,-98.9041
+NE,Roseland,75952 Wilson Course,68973,40.4591,-98.5551
+NE,Sprague,478 George Course Apt. 056,68438,40.6267,-96.7456
+NE,Sutherland,372 Jeffrey Course,69165,41.1558,-101.136
+NE,Valentine,969 Huerta Path Apt. 270,69201,42.8062,-100.6215
+NE,Weeping Water,782 Lee Crossing Apt. 209,68463,40.8731,-96.1528
+NE,Westerville,1893 Katie Tunnel,68881,41.4193,-99.3844
+NH,Acworth,8415 Vaughn Squares Apt. 788,3601,43.196000000000005,-72.3001
+NH,Belmont,672 Randall Burg Suite 551,3220,43.4512,-71.48899999999999
+NH,Center Tuftonboro,234 Bridges Wells Apt. 389,3816,43.6849,-71.2551
+NH,Conway,1561 Chase Grove,3818,43.9742,-71.1503
+NH,Grantham,39631 Dunn Radial,3753,43.5103,-72.1334
+NH,Jaffrey,46095 Tara Fords,3452,42.8178,-72.0275
+NH,Newton,776 Martin Ridge,3858,42.8678,-71.042
+NH,North Haverhill,7812 Shane Shoals Apt. 607,3774,44.0978,-72.0191
+NJ,Allenhurst,5884 Sandoval Square Apt. 371,7711,40.2367,-74.0067
+NJ,Boonton,321 Camacho Causeway,7005,40.9115,-74.414
+NJ,Bridgeport,44197 Jeffrey Port Suite 050,8014,39.8016,-75.3478
+NJ,Elizabeth,269 Sanchez Rapids,7208,40.6747,-74.2239
+NJ,Fairview,3539 Mckenzie Stream,7022,40.817,-74.0
+NJ,Greenwich,673 Delgado Burg,8323,39.4055,-75.3209
+NJ,Harrington Park,870 Rocha Drive,7640,40.9918,-73.98
+NJ,Heislerville,83719 Wilson Shore,8324,39.224,-74.9942
+NJ,Iselin,384 Jonathan Hills,8830,40.5716,-74.3167
+NJ,Matawan,01479 Murray Circle,7747,40.4109,-74.238
+NJ,Monmouth Beach,47144 Roberts Keys,7750,40.333,-73.9809
+NJ,Ogdensburg,6682 Green Forks,7439,41.0767,-74.5982
+NJ,Plainfield,2481 Mills Lock,7060,40.6152,-74.415
+NJ,Richland,81446 Nicole Highway Apt. 874,8350,39.485,-74.8776
+NJ,Stirling,72030 Shelton Crossing Apt. 742,7980,40.6774,-74.4968
+NJ,West Long Branch,63502 Brown Road Apt. 318,7764,40.2878,-74.0162
+NM,Albuquerque,582 Rodriguez Wells,87109,35.1506,-106.569
+NM,Albuquerque,9297 Victor Rest Apt. 382,87116,35.0561,-106.5506
+NM,Crownpoint,490 Baldwin Alley Apt. 468,87313,35.7206,-108.0271
+NM,Espanola,767 Adam Mill Apt. 115,87533,35.9866,-106.0654
+NM,High Rolls Mountain Park,1632 Cohen Drive Suite 639,88325,32.9396,-105.8189
+NM,Kirtland Afb,1911 Fisher Brook,87117,35.0203,-106.5503
+NM,Lamy,46809 Toni Flat Suite 216,87540,35.4311,-105.9409
+NM,Llano,36659 Smith Club Apt. 080,87543,36.1486,-105.6648
+NM,Loving,87198 Macias Drive Suite 389,88256,32.274,-104.0914
+NM,Moriarty,7118 Jessica Unions Apt. 789,87035,34.9889,-106.0609
+NM,Red River,7600 Stephen Course Suite 031,87558,36.6659,-105.4694
+NM,Ruidoso,1742 Brandon Squares Apt. 461,88355,33.3305,-105.6933
+NV,Las Vegas,024 Williams Parkway,89109,36.126,-115.1454
+NV,North Las Vegas,646 Louis Fort Apt. 665,89084,36.2815,-115.1482
+NV,Reno,03512 Jackson Ports,89512,39.5483,-119.7957
+NV,Ruth,74835 Garner Point,89319,39.3426,-114.8859
+NV,Washoe Valley,1287 Michael Roads,89704,39.2669,-119.8174
+NY,Albany,28311 Dennis Trace,12222,42.6853,-73.8253
+NY,Albany,621 Reilly Road Apt. 756,12207,42.656000000000006,-73.7508
+NY,Allentown,69085 Short Shores,14707,42.0737,-78.0594
+NY,Altona,062 Carl Dam,12910,44.8816,-73.6408
+NY,Armonk,1198 Robert Stravenue Apt. 479,10504,41.136,-73.7009
+NY,Barneveld,128 Nathan Ramp,13304,43.2237,-75.1612
+NY,Beacon,24809 Cross Creek,12508,41.5097,-73.9634
+NY,Belfast,079 Chelsea Rest,14711,42.32,-78.0943
+NY,Bellmore,9333 Valentine Point,11710,40.6729,-73.5365
+NY,Big Indian,40847 Stark Junctions,12410,42.074,-74.453
+NY,Breesport,76752 David Lodge Apt. 064,14816,42.1939,-76.7361
+NY,Bronx,04975 Allison Shoal,10463,40.8798,-73.9067
+NY,Brooklyn,4970 Michelle Burgs,11217,40.6816,-73.9798
+NY,Brownville,566 Megan Well,13615,44.0577,-76.0196
+NY,Camden,77944 Daniels Valley Suite 921,13316,43.3392,-75.7543
+NY,Chatham,213 Gill Expressway,12037,42.3496,-73.5873
+NY,Cottekill,574 David Locks Suite 207,12419,41.8467,-74.1038
+NY,Cowlesville,58188 Madison Meadow Apt. 949,14037,42.8112,-78.4481
+NY,De Lancey,1339 Johnson Landing Suite 007,13752,42.18899999999999,-74.9229
+NY,Downsville,383 Long Islands,13755,42.0716,-75.0152
+NY,East Rochester,616 Jimenez Meadow Apt. 701,14445,43.1128,-77.4906
+NY,Falconer,4319 Watson Shoals Suite 658,14733,42.1239,-79.1895
+NY,Farmington,841 Cheryl Centers Suite 115,14425,42.958,-77.3083
+NY,Garrattsville,144 Yu Locks Apt. 754,13342,42.6315,-75.1866
+NY,Greenport,7340 Mcgrath Islands,11944,41.1039,-72.3674
+NY,Hannawa Falls,79472 Stevens Trace Apt. 120,13647,44.6087,-74.9732
+NY,Howes Cave,1299 Joshua Plains,12092,42.7045,-74.3648
+NY,Hudson,428 Morgan River,12534,42.247,-73.7552
+NY,Irvington,994 Grant Mall,10533,41.0381,-73.8597
+NY,Jefferson,901 Ariel Points,12093,42.4999,-74.6117
+NY,Jordanville,81708 Christopher Plaza,13361,42.8948,-74.8209
+NY,Knowlesville,85932 Marc Throughway Apt. 080,14479,43.2363,-78.3138
+NY,Lowville,292 Cassidy Oval,13367,43.7893,-75.4156
+NY,Margaretville,6366 French Field,12455,42.1852,-74.6178
+NY,Medford,046 Michelle Fort Suite 314,11763,40.8174,-72.9852
+NY,Melville,92811 Jared Spur Apt. 345,11747,40.7946,-73.403
+NY,Montrose,31281 Thomas Inlet,10548,41.2496,-73.9446
+NY,Moriches,77321 Ford Via,11955,40.8095,-72.8229
+NY,Mount Morris,9808 Ellis Bypass,14510,42.6835,-77.8664
+NY,Mount Vernon,89650 Patricia Turnpike,10553,40.9086,-73.8221
+NY,Nanuet,0582 Williams Isle Apt. 039,10954,41.0977,-74.0109
+NY,New York City,022 Moore Island,10162,40.7699,-73.9511
+NY,New York City,20938 Barbara Viaduct,10280,40.7105,-74.0163
+NY,New York City,6278 Stephanie Unions,10039,40.8265,-73.9383
+NY,New York City,9599 Washington Field Suite 238,10018,40.7547,-73.9925
+NY,Newark Valley,1852 Vincent Isle Suite 328,13811,42.2281,-76.1625
+NY,North Tonawanda,537 Walker Freeway,14120,43.0498,-78.851
+NY,Northport,0654 Kevin Turnpike Apt. 084,11768,40.9051,-73.3309
+NY,Oak Hill,583 Gray Creek,12460,42.4069,-74.1528
+NY,Oakdale,560 Molina Path,11769,40.7382,-73.1297
+NY,Orangeburg,865 Thomas Village,10962,41.0442,-73.9609
+NY,Orient,874 Fred Knolls Apt. 609,11957,41.1437,-72.2879
+NY,Oriskany Falls,0495 Baker Manors,13425,42.9576,-75.4838
+NY,Palmyra,3703 Benson Wells,14522,43.0622,-77.2218
+NY,Phelps,76332 Maria Squares,14532,42.9582,-77.0473
+NY,Pomona,13776 Hicks Plains,10970,41.1901,-74.0436
+NY,Port Ewen,502 Rice Plaza Apt. 979,12466,41.8948,-73.9767
+NY,Port Gibson,6744 Jimmy Extensions,14537,43.033,-77.1575
+NY,Rock Tavern,977 Rita Grove Apt. 000,12575,41.4575,-74.1659
+NY,Saint Bonaventure,70147 Amanda Fields,14778,42.2701,-78.6847
+NY,Shelter Island,7915 Dawn Roads Apt. 544,11964,41.06399999999999,-72.3366
+NY,South Richmond Hill,0157 Samuel Mission Suite 379,11419,40.6868,-73.82300000000001
+NY,Springfield Gardens,1471 Alicia Flat Apt. 993,11413,40.6645,-73.7559
+NY,Stittville,3312 Rachel Parks Suite 474,13469,43.2229,-75.2899
+NY,Tupper Lake,597 Jenny Ford Apt. 543,12986,44.232,-74.4905
+NY,West Chazy,766 Potter Well,12992,44.797,-73.5112
+NY,West Eaton,296 Maria Street,13484,42.8546,-75.6605
+NY,West Harrison,8614 Reed Glen,10604,41.0592,-73.7395
+NY,West Henrietta,74890 Rodriguez Springs Apt. 540,14586,43.0397,-77.6871
+NY,West Sayville,576 House Crossroad,11796,40.732,-73.1
+NY,Westhampton Beach,641 Steven Mall Apt. 299,11978,40.8295,-72.6473
+OH,Akron,622 Robert Summit,44307,41.0695,-81.5488
+OH,Amanda,477 Wheeler Burg,43102,39.6251,-82.7552
+OH,Amsterdam,754 Smith Isle,43903,40.4731,-80.9596
+OH,Arcadia,4602 Lopez Glens Suite 900,44804,41.1116,-83.50200000000001
+OH,Beaverdam,25713 Hamilton Grove Apt. 903,45808,40.8314,-83.9758
+OH,Bethel,669 Moore Shoal,45106,38.9424,-84.09200000000001
+OH,Bowersville,916 Charles Road,45307,39.5756,-83.7153
+OH,Byesville,740 Moses Trail Suite 452,43723,39.9623,-81.5485
+OH,Canton,4257 Perez Mall,44702,40.8027,-81.3739
+OH,Clay Center,9572 Austin Forge Suite 612,43408,41.5686,-83.3632
+OH,Creola,12087 Michael Light,45622,39.3543,-82.50299999999999
+OH,Cuyahoga Falls,587 Bradley Inlet Suite 281,44223,41.1464,-81.5107
+OH,Dayton,01505 Amy Stravenue,45415,39.8355,-84.2613
+OH,Diamond,0182 Owens Burgs Suite 480,44412,41.0935,-81.0425
+OH,Diamond,198 Candace Plaza,44412,41.0935,-81.0425
+OH,Fulton,230 Ryan Tunnel Apt. 025,43321,40.4971,-82.8342
+OH,Greenville,28711 Kristine Junction Suite 309,45331,40.0987,-84.6342
+OH,Hinckley,1652 James Mews,44233,41.2419,-81.7453
+OH,Holloway,7854 Stephanie Island Suite 788,43985,40.0113,-80.9701
+OH,Ironton,69459 Rachel Prairie Apt. 850,45638,38.5294,-82.6654
+OH,Kirby,23220 Eaton Harbors,43330,40.813,-83.4196
+OH,Lima,70858 Jasmine Meadows Apt. 135,45801,40.7641,-84.0973
+OH,Lithopolis,486 Wilkins Pines,43136,39.8013,-82.8125
+OH,Mansfield,9471 Wong Islands,44902,40.7559,-82.5123
+OH,Maria Stein,95488 Cabrera Well,45860,40.4062,-84.5076
+OH,Miamisburg,36366 Smith Road,45342,39.6321,-84.2675
+OH,Milford,537 Rice Square Suite 040,45150,39.1657,-84.23299999999999
+OH,Mount Perry,7507 Larry Passage Suite 859,43760,39.8788,-82.18799999999999
+OH,Mount Saint Joseph,27718 Mason Bypass,45051,39.0965,-84.6431
+OH,Norwalk,994 Livingston Extensions Suite 918,44857,41.2403,-82.6078
+OH,Norwich,56160 Nicholas Isle,43767,39.9934,-81.8024
+OH,Paulding,9134 Darryl Flat Suite 916,45879,41.141000000000005,-84.5722
+OH,Randolph,376 John Fork Suite 848,44265,41.0109,-81.2977
+OH,Rosewood,588 Smith Lights Suite 786,43070,40.2158,-83.9579
+OH,Thornville,6340 Jeffrey Dale,43076,39.8974,-82.4071
+OH,Warren,386 Randolph Throughway,44483,41.2639,-80.8164
+OH,Washington Court House,46297 Benjamin Plains Suite 703,43160,39.537,-83.455
+OH,Waynesfield,6611 Parrish Garden Apt. 428,45896,40.6072,-83.9585
+OH,Zaleski,4739 Martin Common,45698,39.283,-82.3977
+OK,Achille,47035 Murray Harbors,74720,33.8396,-96.3648
+OK,Amorita,875 Amy Point,73719,36.9412,-98.2458
+OK,Burbank,463 Willie Estates,74633,36.6966,-96.7869
+OK,Burns Flat,3426 David Divide Suite 717,73624,35.3492,-99.188
+OK,Clayton,6760 Donovan Lakes,74536,34.5906,-95.38
+OK,Coyle,033 Tara Brook Suite 523,73027,35.8985,-97.2607
+OK,Edmond,830 Myers Plaza Apt. 384,73034,35.6665,-97.4798
+OK,Lahoma,39227 Mcpherson Shoals,73754,36.385,-98.0727
+OK,Lahoma,44259 Beth Station Suite 215,73754,36.385,-98.0727
+OK,Lane,3316 Cindy Land,74555,34.2691,-95.9685
+OK,Mounds,0005 Morrison Land,74047,35.8896,-96.0887
+OK,Mountain Park,174 Jennifer Meadow Apt. 467,73559,34.7032,-98.9591
+OK,Oklahoma City,8149 Harris Divide,73134,35.6174,-97.5583
+OK,Roosevelt,6447 Johnson Estates Apt. 986,73564,34.847,-98.9836
+OK,Stillwater,886 Nicole Key,74074,36.1043,-97.0609
+OK,Thomas,3595 Susan Island Suite 063,73669,35.7382,-98.7388
+OK,Tryon,121 Solis Summit Apt. 934,74875,35.8759,-96.9623
+OK,Tulsa,030 Seth Divide Suite 355,74131,36.0557,-96.0602
+OK,Tulsa,5449 Brandi Heights Apt. 111,74130,36.2395,-95.9596
+OK,Tulsa,644 Deborah Courts,74108,36.1499,-95.7923
+OR,Athena,31493 Garcia Summit,97813,45.8289,-118.4971
+OR,Bay City,08580 Jeremy Falls,97107,45.5197,-123.8761
+OR,Cascade Locks,7107 Henderson Station,97014,45.67100000000001,-121.8686
+OR,Eugene,77921 Costa Villages,97403,44.0385,-123.0614
+OR,Gardiner,477 Alejandro Knolls Suite 828,97441,43.7857,-124.1437
+OR,Jordan Valley,6993 Carr Lodge Apt. 311,97910,42.8801,-117.281
+OR,Kent,8510 Acevedo Burgs,97033,45.0838,-120.6649
+OR,La Grande,48437 English Ways Suite 579,97850,45.3304,-118.0852
+OR,Lake Oswego,065 Jones Stravenue,97034,45.4093,-122.6847
+OR,Lowell,7402 West Ranch,97452,43.92100000000001,-122.7806
+OR,Newberg,1049 John Ports Suite 057,97132,45.3099,-122.9685
+OR,Portland,0701 John Ranch,97210,45.5303,-122.7033
+OR,Powell Butte,9824 Mitchell Run,97753,44.2415,-121.0113
+OR,Scotts Mills,674 Maureen Summit Apt. 276,97375,44.9897,-122.6187
+OR,Shedd,79816 Jackson Squares,97377,44.453,-123.1065
+OR,Sixes,7177 Steven Forges,97476,42.825,-124.4409
+OR,Stayton,084 Holmes Avenue Suite 206,97383,44.8021,-122.7624
+OR,Westfir,57887 Gutierrez Harbor,97492,43.7575,-122.481
+PA,Allentown,41851 Victor Drives Suite 219,18103,40.5891,-75.4645
+PA,Armagh,6911 Nicholas Keys Apt. 237,15920,40.4603,-79.0097
+PA,Atglen,9588 Cox Rapid Apt. 257,19310,39.9458,-75.9703
+PA,Beaver Falls,285 George Lake,15010,40.7687,-80.3592
+PA,Beaver Falls,728 Randolph Causeway Suite 894,15010,40.7687,-80.3592
+PA,Bolivar,24191 Elizabeth Mill,15923,40.3673,-79.1605
+PA,Bristol,298 Kayla Lights,19007,40.1159,-74.8536
+PA,Chester Heights,148 Baker Field,19017,39.8839,-75.4669
+PA,Clarion,492 West Crossing,16214,41.2123,-79.3773
+PA,Clarks Mills,444 Robert Mews,16114,41.3851,-80.1752
+PA,Clune,83359 Lopez Point,15727,40.5503,-79.3237
+PA,Cochranton,911 Sabrina Trafficway,16314,41.5205,-80.0573
+PA,Cokeburg,494 Burke Ports,15324,40.1008,-80.0652
+PA,Corsica,23142 Montoya Island Apt. 742,15829,41.1762,-79.1976
+PA,Cressona,324 Donna Ridge Suite 651,17929,40.6284,-76.195
+PA,Dublin,4655 David Island,18917,40.375,-75.2045
+PA,Dunlevy,950 Sheryl Spurs,15432,40.1151,-79.8627
+PA,Emporium,5036 Victoria Ports Suite 249,15834,41.5177,-78.2536
+PA,Fenelton,24607 Charles Mountains,16034,40.8555,-79.7372
+PA,Fenelton,30587 Fox Shores Apt. 627,16034,40.8555,-79.7372
+PA,Glen Rock,17667 Price Spur Apt. 366,17327,39.7813,-76.7477
+PA,Grassflat,897 Daugherty Mission,16839,41.0036,-78.1104
+PA,Harborcreek,268 Hayes Rue Suite 811,16421,42.1767,-79.9416
+PA,Harmony,8929 Phillips Corners Suite 259,16037,40.8496,-80.1381
+PA,Irvine,37426 Olson Villages,16329,41.8117,-79.2643
+PA,Jermyn,6574 William Hill Apt. 375,18433,41.5744,-75.5881
+PA,Karns City,5124 Wendy Skyway Suite 154,16041,41.0022,-79.71600000000001
+PA,Keisterville,4879 Cristina Station,15449,39.9636,-79.7853
+PA,Lawn,55363 Aaron Circle Suite 450,17041,40.2236,-76.538
+PA,Leetsdale,2497 John Motorway Suite 922,15056,40.5662,-80.2099
+PA,Manor,6888 Hicks Stream Suite 954,15665,40.3359,-79.6607
+PA,Marienville,663 Anna Plaza,16239,41.4622,-79.1306
+PA,Mc Clellandtown,4548 Werner Wells Apt. 441,15458,39.8882,-79.8694
+PA,Mc Veytown,0912 Mark Fields Apt. 080,17051,40.5046,-77.7186
+PA,Mifflin,26572 Hodge Villages Suite 512,17058,40.5553,-77.4001
+PA,Mill Creek,8969 Fuentes Station Apt. 291,17060,40.4679,-77.8967
+PA,Montandon,8465 Reed Green Suite 559,17850,40.9661,-76.8575
+PA,Morrisdale,4138 David Fall,16858,41.0001,-78.2357
+PA,Morrisdale,99736 Rose Shoals Apt. 504,16858,41.0001,-78.2357
+PA,Nicholson,4177 Rosales Summit Apt. 973,18446,41.6412,-75.7641
+PA,North East,95017 Kevin Expressway,16428,42.2008,-79.8332
+PA,North Washington,658 Diane Glen Apt. 677,16048,41.0472,-79.8089
+PA,Oaks,08966 Beltran Route Suite 905,19456,40.1334,-75.4536
+PA,Philadelphia,8425 Daniel Knolls Suite 288,19154,40.0897,-74.9781
+PA,Philadelphia,899 Michele View Suite 960,19149,40.0369,-75.0664
+PA,Pittsburgh,5323 Walker Island,15217,40.4308,-79.9205
+PA,Rock Glen,025 White Fork Apt. 633,18246,40.954,-76.1747
+PA,Rockwood,9670 Monroe Junctions,15557,39.9373,-79.1865
+PA,Schaefferstown,2851 Foster Shoals,17088,40.3087,-76.2963
+PA,Shippingport,109 Brian Lights Apt. 504,15077,40.6025,-80.3863
+PA,Skytop,58761 Brewer Rapids,18357,41.2336,-75.2389
+PA,Smock,078 Alex Fields,15480,39.9961,-79.7678
+PA,Spring Church,25454 Leonard Lake,15686,40.6153,-79.4545
+PA,Uledi,864 Reynolds Plains,15484,39.8936,-79.7856
+PA,Utica,5155 Mary Common Apt. 927,16362,41.4798,-79.9403
+PA,Vanderbilt,35737 Kirby Fall Suite 409,15486,40.0246,-79.6955
+PA,West Decatur,709 George Underpass Apt. 080,16878,40.9493,-78.3129
+PA,West Finley,542 Finley Ports Apt. 396,15377,39.9914,-80.4408
+RI,Providence,90662 Lewis Avenue,2908,41.8383,-71.4377
+SC,Arcadia,95835 Garcia Rue,29320,34.9572,-81.9916
+SC,Blackville,374 Christopher Ramp Suite 855,29817,33.3645,-81.2718
+SC,Bradley,4664 Sanchez Common Suite 930,29819,34.0326,-82.2027
+SC,Brunson,2838 White Fields Apt. 473,29911,32.9413,-81.1807
+SC,Cassatt,2076 Thomas Roads Suite 970,29032,34.3424,-80.5
+SC,Clifton,653 Jessica Extension Apt. 668,29324,34.9906,-81.8327
+SC,Columbia,351 Darlene Green,29209,33.9659,-80.9355
+SC,Cross,2881 Frey Village,29436,33.3364,-80.1859
+SC,Edisto Island,6983 Carrillo Isle,29438,32.5486,-80.307
+SC,Ehrhardt,147 Mckinney Run Apt. 743,29081,33.1044,-81.0221
+SC,Hopkins,835 Reese Views Suite 884,29061,33.9349,-80.8449
+SC,Johns Island,857 Aaron Circles Suite 398,29455,32.8357,-79.8217
+SC,Marietta,3160 Tina Estates Suite 234,29661,35.0296,-82.5136
+SC,Monetta,252 Melissa Rapids Suite 944,29105,33.8084,-81.5956
+SC,New Ellenton,979 Stewart Lake,29809,33.413000000000004,-81.69
+SC,North Augusta,38352 Parrish Road Apt. 652,29860,33.6028,-81.9748
+SC,Prosperity,21178 Brittney Locks,29127,34.1832,-81.5324
+SC,Ridge Spring,0467 Jerry Pines Apt. 640,29129,33.8714,-81.6559
+SC,Scotia,180 Graves Shore,29939,32.6786,-81.2455
+SC,West Columbia,5745 Blair Locks,29170,33.9568,-81.1405
+SC,Winnsboro,00378 Sarah Burgs Suite 106,29180,34.381,-81.109
+SD,Barnard,526 Stacy Walks,57426,45.7205,-98.5534
+SD,Belle Fourche,8030 Walker Heights,57717,44.6723,-103.8396
+SD,Deadwood,062 Poole Hollow Apt. 815,57732,44.3566,-103.6999
+SD,Ferney,2306 Clark Ranch Suite 515,57439,45.32899999999999,-98.0837
+SD,Fulton,954 Reyes Ways,57340,43.7588,-97.8712
+SD,Hurley,22084 Smith Roads Suite 776,57036,43.2893,-97.1904
+SD,Manderson,42933 Ryan Underpass,57756,43.3526,-102.5411
+SD,Mc Intosh,7452 Browning Port,57641,45.7084,-101.1546
+SD,Spencer,350 Stacy Glens,57374,43.7557,-97.5936
+TN,Apison,957 Miller Falls,37302,35.0149,-85.0164
+TN,Benton,446 Daniel View Suite 663,37307,35.173,-84.6544
+TN,Bethel Springs,62934 Maria Cliffs Suite 350,38315,35.2289,-88.64399999999999
+TN,Chattanooga,7065 Whitney Mountains,37411,35.0271,-85.2356
+TN,Clarksville,21326 Taylor Squares Suite 708,37040,36.522,-87.34899999999999
+TN,Grand Junction,495 Fisher Throughway,38039,35.0659,-89.1534
+TN,Heiskell,2123 Jonathan Falls Suite 753,37754,36.115,-84.0438
+TN,Kingsport,71309 Martinez Stravenue,37663,36.4715,-82.4834
+TN,Knoxville,57256 Raymond Ports,37932,35.9335,-84.1481
+TN,Mountain City,16220 Joseph Point Suite 096,37683,36.4657,-81.814
+TN,Murfreesboro,319 Wendy Fort Suite 179,37132,35.8596,-86.421
+TN,Oakland,83690 Nicholas Ports Apt. 846,38060,35.2229,-89.5518
+TN,Old Hickory,053 Kim Valley Suite 928,37138,36.2416,-86.6117
+TN,Powell,7421 Serrano Lane Apt. 580,37849,36.0435,-84.04
+TN,Slayden,098 Stewart Hill,37165,36.2835,-87.4581
+TN,Tiptonville,39787 Pamela Fall Suite 639,38079,36.3846,-89.4649
+TN,Wartburg,20788 Johnson Crest,37887,36.1016,-84.5652
+TX,Aledo,1626 Susan Course,76008,32.7004,-97.6039
+TX,Altair,9734 Beard Fields Suite 885,77412,29.6047,-96.5249
+TX,Beasley,2064 Tyler Fork,77417,29.479,-95.9681
+TX,Blooming Grove,6602 Ortiz Pine Apt. 179,76626,32.0758,-96.701
+TX,Bynum,1233 Sutton Road Suite 701,76631,31.9907,-96.9837
+TX,Camden,21810 James Mall,75934,30.9,-94.7547
+TX,Cleveland,3522 Park Wells Suite 528,77327,30.33,-95.0202
+TX,Coleman,0537 Margaret Common Suite 526,76834,31.8287,-99.427
+TX,Cross Plains,172 Paula Inlet Apt. 650,76443,32.1482,-99.1872
+TX,Dallas,4440 George Mills Suite 591,75210,32.7699,-96.743
+TX,Dallas,543 Mindy Oval,75246,32.7948,-96.7697
+TX,Dallas,7377 Walton Extensions Apt. 979,75236,32.69,-96.9177
+TX,Dallas,79019 Taylor Cliffs,75238,32.876999999999995,-96.708
+TX,Dallas,8152 Brittany Centers,75218,32.8463,-96.6972
+TX,Dell City,6027 Scott Meadows Suite 494,79837,31.924,-105.2099
+TX,Desdemona,933 Martin Rapids,76445,32.2819,-98.5673
+TX,El Paso,23656 Harris Gardens Suite 698,79906,31.8092,-106.4247
+TX,Falls City,44089 Carrie Crossing Suite 954,78113,28.9814,-98.0156
+TX,Gainesville,980 Smith Gardens,76240,33.6547,-97.1583
+TX,Granbury,731 Watson Spring,76048,32.425,-97.7742
+TX,Grandview,03030 White Lakes,76050,32.2779,-97.2351
+TX,Harper,50614 Kevin Point,78631,30.2816,-99.241
+TX,Hedley,1004 Willis Pass,79237,34.8698,-100.6806
+TX,Holliday,4725 Hurst Curve Apt. 634,76366,33.6751,-98.6576
+TX,Houston,300 Hodge Loaf,77027,29.7396,-95.446
+TX,Houston,589 Matthew Brooks,77026,29.7972,-95.3288
+TX,Houston,789 Herring Manors,77007,29.7736,-95.4034
+TX,Houston,837 Kimberly Turnpike,77038,29.9196,-95.4386
+TX,Humble,383 Contreras Hills Suite 658,77338,30.0041,-95.2825
+TX,Karnack,6638 Lucero Mill Suite 952,75661,32.6205,-94.2
+TX,Keller,715 Courtney Pike Suite 932,76248,32.9276,-97.2489
+TX,Kilgore,686 Linda Rest,75662,32.3836,-94.8653
+TX,Lake Jackson,572 Davis Mountains,77566,29.0393,-95.4401
+TX,Laredo,242 Brian Mountain,78040,27.5155,-99.4986
+TX,Leonard,117 Natasha Vista Suite 936,75452,33.4044,-96.2238
+TX,Lockhart,1206 Juan Fort Suite 424,78644,29.8868,-97.6769
+TX,Lolita,133 Alyssa Plains,77971,28.7724,-96.4793
+TX,Lorenzo,3512 Knight Center,79343,33.6666,-101.5277
+TX,Lubbock,574 Patricia Extensions,79413,33.5466,-101.8871
+TX,Marathon,3047 Jeff Place,79842,30.1886,-103.2214
+TX,May,759 Erin Mount Suite 956,76857,31.9571,-98.9656
+TX,Meridian,554 Mcdonald Valley Apt. 539,76665,31.929,-97.6443
+TX,Nazareth,941 Adam Stravenue,79063,34.5444,-102.1069
+TX,New Waverly,659 Nicole Cove Suite 560,77358,30.5354,-95.4532
+TX,Notrees,63542 Luna Brook Apt. 012,79759,31.8599,-102.7413
+TX,O Brien,9412 Harris Mews,79539,33.3749,-99.8473
+TX,Pecos,28925 Powell Mountains Apt. 762,79772,31.4467,-103.5791
+TX,Prairie Hill,7921 Robert Port Suite 343,76678,31.6591,-96.8094
+TX,Purmela,25036 Contreras Turnpike Suite 270,76566,31.4841,-97.9903
+TX,Quanah,082 Hernandez Bypass Apt. 886,79252,34.2956,-99.7494
+TX,Ratcliff,68276 Matthew Springs,75858,31.3833,-95.0619
+TX,Roma,3531 Hamilton Highway,78584,26.4215,-99.0025
+TX,Rule,682 Mills Way Apt. 814,79548,33.0771,-99.959
+TX,Sachse,01892 Patricia Vista Apt. 828,75048,32.9643,-96.6012
+TX,San Angelo,815 Heather Divide Apt. 965,76905,31.4647,-100.39
+TX,San Antonio,27954 Hall Mill Suite 575,78208,29.44,-98.459
+TX,San Antonio,4130 Tiffany Glen Apt. 562,78248,29.5894,-98.5201
+TX,San Antonio,5939 Garcia Forges Suite 297,78214,29.3641,-98.4924
+TX,Sherman,67210 Lori Creek,75092,33.6372,-96.6184
+TX,Spring,575 Chapman Union,77379,30.0377,-95.5326
+TX,Sterling City,14601 Downs Skyway Apt. 440,76951,31.8351,-101.0017
+TX,Summerfield,94975 David Mews Apt. 316,79085,34.7437,-102.5064
+TX,Thrall,5395 Colon Burgs Suite 037,76578,30.592,-97.2893
+TX,Trenton,6014 Thomas Throughway,75490,33.4235,-96.3398
+TX,Tyler,63991 Destiny Rue Apt. 651,75703,32.2768,-95.3031
+TX,Zavalla,169 Shelia Knoll Suite 753,75980,31.1569,-94.3871
+UT,Altonah,3638 Marsh Union,84002,40.3207,-110.436
+UT,American Fork,0107 Clements Point,84003,40.3928,-111.7941
+UT,Hatch,162 Jessica Row Apt. 072,84735,37.7175,-112.4777
+UT,Mendon,1683 Davidson Freeway,84325,41.71,-111.9817
+UT,Moab,8738 Richard Brooks,84532,38.5677,-109.5271
+UT,Thompson,320 Nicholson Orchard,84540,38.9999,-109.615
+UT,Woods Cross,77127 Paul Station Apt. 495,84087,40.8874,-111.9027
+VA,Alexandria,826 Benjamin Stravenue,22311,38.832,-77.12
+VA,Arlington,1499 Michael Rue,22213,38.8954,-77.1633
+VA,Atlantic,8850 Jessica Center,23303,37.9073,-75.5089
+VA,Basye,8851 Reese Neck,22810,38.8089,-78.7776
+VA,Burke,793 Hooper Tunnel Suite 154,22015,38.7894,-77.2818
+VA,Catawba,1980 Vasquez Manors Apt. 574,24070,37.3696,-80.1284
+VA,Damascus,2674 Bentley Radial,24236,36.6403,-81.7776
+VA,Doe Hill,408 Bradley Rest,24433,38.4207,-79.4629
+VA,Drakes Branch,3861 Anderson Ramp Apt. 536,23937,36.9688,-78.5615
+VA,Edinburg,231 Flores Pass Suite 720,22824,38.8432,-78.6003
+VA,Etlan,433 John Heights Apt. 849,22719,38.5095,-78.2638
+VA,Falls Church,1984 Taylor Island Suite 836,22046,38.8856,-77.1802
+VA,Ford,77872 Andrea Glen Apt. 543,23850,37.1349,-77.7364
+VA,Glade Spring,371 Anthony Trail Suite 354,24340,36.7779,-81.7676
+VA,Greenbush,295 Page Creek Suite 181,23357,37.7681,-75.6664
+VA,Hampton,257 Victor Stravenue,23666,37.0462,-76.4096
+VA,Hopewell,1007 Colton Forks,23860,37.2876,-77.295
+VA,Lebanon,137 Adam Dale,24266,36.8809,-82.0956
+VA,Manquin,334 Adam Mountains Apt. 868,23106,37.7184,-77.186
+VA,Mineral,89871 Woodard Spring Suite 714,23117,37.9986,-77.8781
+VA,Norfolk,3437 Ross Flat Apt. 592,23523,36.8294,-76.2701
+VA,Oakton,4716 Tracy Bridge,22124,38.8852,-77.3233
+VA,Ruckersville,1166 Castillo Mountains,22968,38.2586,-78.4074
+VA,Springfield,6385 Donald Square Suite 429,22151,38.8029,-77.2116
+VA,Timberville,16744 Campbell Wall Apt. 372,22853,38.6476,-78.7717
+VT,Brandon,974 Cindy Stream,5733,43.8065,-73.0882
+VT,Graniteville,25887 Martin Inlet,5654,44.1554,-72.4847
+VT,Hinesburg,29606 Martinez Views Suite 653,5461,44.3346,-73.098
+VT,South Hero,997 Cameron Meadow Apt. 980,5486,44.64,-73.3113
+VT,South Londonderry,50843 Vincent Mission,5155,43.1699,-72.8515
+VT,West Hartford,2161 Blankenship Freeway,5084,43.7185,-72.4439
+WA,Ashford,43075 Cohen Shoals,98304,46.7531,-121.9898
+WA,Burbank,144 Evans Islands Apt. 683,99323,46.1966,-118.9017
+WA,Burlington,194 Goodman Fall Apt. 569,98233,48.4786,-122.3345
+WA,Colton,79209 Gary Dale,99113,46.5901,-117.1692
+WA,Conway,7202 Jeffrey Mills,98238,48.34,-122.3456
+WA,Coulee Dam,755 Moses Harbor,99116,48.0379,-118.9419
+WA,Issaquah,000 Jennifer Mills,98027,47.4974,-122.0107
+WA,Monitor,53142 Katrina Roads Suite 889,98836,47.4852,-120.4158
+WA,Orient,43039 Riley Greens Suite 393,99160,48.8878,-118.2105
+WA,Seattle,0947 Kelly Courts,98105,47.6633,-122.3022
+WA,Tekoa,0110 Ashley Forest,99033,47.2271,-117.0819
+WA,Vancouver,517 Vasquez Lodge,98665,45.6892,-122.6616
+WI,Adams,4470 Jillian Courts,53910,43.8967,-89.8219
+WI,Bagley,982 Melissa Lock,53801,42.9207,-91.0685
+WI,Benton,619 Jeremy Garden Apt. 681,53803,42.5545,-90.3508
+WI,Boyd,047 Kevin Haven,54726,44.9437,-91.0294
+WI,Brookfield,554 Harrell Ferry Suite 533,53045,43.0668,-88.1469
+WI,Bryant,862 Anderson Highway,54418,45.203,-88.9983
+WI,Cazenovia,949 Smith Parkway,53924,43.4987,-90.2796
+WI,Dalton,00821 Joanna Meadow,53926,43.6718,-89.1918
+WI,East Troy,401 Escobar Port,53120,42.8035,-88.4092
+WI,Greendale,927 Cummings Manor Suite 318,53129,42.9373,-87.9943
+WI,Hewitt,220 Frank Gardens,54441,44.6437,-90.1031
+WI,Marshall,5560 Arnold Port Suite 880,53559,43.1636,-89.0753
+WI,Milwaukee,464 Newman Crossroad,53228,42.9676,-88.0434
+WI,New Franken,4742 Alexandria Mountain,54229,44.5592,-87.8235
+WI,New Holstein,7188 Melissa Crest Apt. 151,53061,43.9446,-88.0911
+WI,North Prairie,35440 Ryan Islands,53153,42.9385,-88.395
+WI,Oconto Falls,586 Thomas Cliffs,54154,44.8755,-88.1555
+WI,Saxon,70761 Fitzpatrick Brooks Suite 631,54559,46.4959,-90.4383
+WI,Seneca,5364 William Harbor,54654,43.2064,-90.9405
+WI,Tomahawk,181 Moreno Light Apt. 215,54487,45.4963,-89.7273
+WI,Waukau,254 Webster Harbor,54980,43.9886,-88.7712
+WI,Waukesha,7683 Natasha Way Apt. 945,53186,42.9993,-88.2196
+WI,Waupaca,5572 Kelly Plains Apt. 952,54981,44.3481,-89.1101
+WI,Winter,195 Murray Overpass Apt. 384,54896,45.8327,-91.0144
+WI,Wittenberg,184 Miller Manors,54499,44.8232,-89.1665
+WV,Cass,411 Laurie Fords,24927,38.388000000000005,-79.9906
+WV,Center Point,4529 Cannon Alley,26339,39.4125,-80.6352
+WV,Comfort,343 Hannah Parkway,25049,38.1372,-81.5962
+WV,Daniels,50932 Neal Valley,25832,37.7256,-81.1087
+WV,Henderson,4938 Hatfield Course,25106,38.8265,-82.1364
+WV,Hurricane,1943 Dennis Inlet Suite 145,25526,38.4257,-81.9943
+WV,Moundsville,77663 Colleen Freeway,26041,39.9148,-80.73100000000001
+WV,Premier,5554 Mack Meadows,24878,37.3752,-81.6539
+WV,Ronceverte,32301 Albert River Suite 364,24970,37.7418,-80.4626
+WV,Shenandoah Junction,43576 Kristina Islands,25442,39.3716,-77.8229
+WV,Tallmansville,4215 Miranda Field Suite 326,26237,38.8564,-80.158
+WV,Thomas,2870 Bean Terrace Apt. 756,26292,39.1505,-79.503
+WV,Union,43809 Kenneth Circles Suite 152,24983,37.5802,-80.5248
+WV,White Sulphur Springs,825 Martinez Springs Apt. 625,24986,37.7827,-80.3129
+WV,Winfield,3603 Mitchell Court,25213,38.5072,-81.89
+WY,Alva,40178 Lisa Mission,82711,44.6873,-104.4414
+WY,Fort Washakie,45654 Hess Rest,82514,43.0048,-108.8964
+WY,Fort Washakie,9886 Anita Drive,82514,43.0048,-108.8964
+WY,Freedom,7483 Navarro Flats,83120,43.0172,-111.0292
+WY,Jelm,5517 Stacy Land,82063,41.0539,-106.0763
+WY,Lagrange,8619 Lisa Manors Apt. 871,82221,41.6423,-104.1974
+WY,Laramie,9870 Collins Flat,82072,41.4247,-105.4781
+WY,Lonetree,529 Joshua Knoll Apt. 511,82936,41.0552,-110.1603
+WY,Manville,2027 Snyder Track,82227,42.73,-104.7024
+WY,Riverton,748 Bryan Fields Suite 935,82501,43.0351,-108.2024
+WY,Rock Springs,05050 Rogers Well Apt. 439,82901,41.606,-109.23
+WY,Yellowstone National Park,376 Brown Courts,82190,44.7957,-110.6137

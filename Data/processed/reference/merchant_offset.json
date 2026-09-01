@@ -1,0 +1,9 @@
+{
+  "method": "uniform_offset_around_customer",
+  "offset_degrees": 1.0,
+  "measured_abs_dlat_max": 0.999999,
+  "measured_abs_dlon_max": 0.999997,
+  "measured_abs_dlat_mean": 0.500263,
+  "measured_abs_dlon_mean": 0.500337,
+  "rationale": "No merchant identifier in the raw data maps to a single merchant coordinate (0 of 693 merchants, 0 of 700 merchant+category pairs). The offset between the customer and merchant coordinate is uniform inside a +/-1 degree box around the customer and is independent of merchant identity, so a merchant has no coordinate to look up. Inference reproduces this measured process with a seed derived from the transaction's own field values, which keeps a given transaction deterministic."
+}
