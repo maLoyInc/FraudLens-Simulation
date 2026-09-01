@@ -38,4 +38,3 @@ REPORTS_DIR = ROOT / "training" / "reports"
 UI_STATIC_DIR = ROOT / "fraudlens" / "ui" / "static"
 
 APP_TITLE = "FraudLens"
-APP_TAGLINE = "Digital Transaction Fraud Detection"
