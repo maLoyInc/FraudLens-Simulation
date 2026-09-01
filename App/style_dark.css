@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Design Tokens — Dark Theme
+   ========================================================================== */
+:root {
+    --color-bg: #14161a;
+    --color-surface: #1e2126;
+    --color-text: #e8eaed;
+    --color-text-muted: #9aa0ab;
+    --color-border: #33363c;
+    --color-primary: #5b8fd6;
+    --color-success: #4caf7d;
+    --color-warning: #d99a3d;
+    --color-danger: #e5675f;
+    --color-accent: #5b8fd6;
+
+    /* Supporting tokens (kept minimal, only what is actually used below) */
+    --color-input-bg: #262a31;
+    --color-hover: #7aa8e0;
+    /* --color-primary here is a mid-light blue; dark text reads far better
+       on it than white text at this lightness, so the primary button uses
+       a dark foreground color instead of white for sufficient contrast. */
+    --color-button-text: #0d1117;
+    --color-focus-ring: rgba(91, 143, 214, 0.35);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    --radius-md: 14px;
+    --radius-sm: 8px;
+}
+
+/* ==========================================================================
+   Global Background & Base Typography
+   ========================================================================== */
+body, .stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+[data-testid="stHeader"] {
+    background-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Comfortable whitespace before each subheading (used for the 3 form
+   sections, and the "Transaction Information" / "Prediction Result"
+   headings) instead of relying on divider lines. */
+h3 {
+    margin-top: 2rem;
+}
+
+[data-testid="stCaptionContainer"] {
+    color: var(--color-text-muted) !important;
+}
+
+/* ==========================================================================
+   Sidebar (styling only — content/structure untouched)
+   ========================================================================== */
+section[data-testid="stSidebar"] {
+    background-color: var(--color-surface);
+    padding: 20px;
+    border-right: 1px solid var(--color-border);
+}
+section[data-testid="stSidebar"] * {
+    color: var(--color-text) !important;
+}
+
+/* ==========================================================================
+   Form Container
+   ========================================================================== */
+[data-testid="stForm"] {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: 20px;
+}
+
+/* ==========================================================================
+   Field Labels
+   ========================================================================== */
+label {
+    color: var(--color-text) !important;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Inputs (text / number / select / textarea)
+   NOTE: previously these were hardcoded to a light background (#f1f3f6)
+   with black text even in dark mode, making fields look like bright
+   "islands" against the dark page. They now follow the dark tokens.
+   ========================================================================== */
+input, select, textarea {
+    background-color: var(--color-input-bg) !important;
+    color: var(--color-text) !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: var(--radius-sm);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+    outline: none;
+}
+
+input:disabled, select:disabled, textarea:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Buttons
+   NOTE: previously ALL buttons were forced to black text
+   (button{color:#000000 !important}), which also affected small,
+   unrelated controls (e.g. number_input's +/- steppers). This is now
+   scoped: generic buttons follow the dark surface/text tokens, while
+   only the primary "Predict" button gets the dedicated primary styling.
+   ========================================================================== */
+button {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+button:hover {
+    border-color: var(--color-primary);
+}
+
+button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+
+/* Primary action: the form submit ("Predict") button */
+[data-testid="stFormSubmitButton"] button {
+    background-color: var(--color-primary);
+    color: var(--color-button-text);
+    border: 1px solid var(--color-primary);
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+}
+
+[data-testid="stFormSubmitButton"] button:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+[data-testid="stFormSubmitButton"] button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+
+/* ==========================================================================
+   Alerts (st.success / st.warning / st.error)
+   ========================================================================== */
+[data-testid="stAlert"] {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+/* ==========================================================================
+   Prediction Result — Fraud Probability metric
+   ========================================================================== */
+[data-testid="stMetricLabel"] {
+    color: var(--color-text-muted);
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--color-text);
+    font-weight: 700;
+}

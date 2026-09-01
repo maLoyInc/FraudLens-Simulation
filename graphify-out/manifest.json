@@ -1,0 +1,44 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1787681880.9441535,
+    "seen": 1787735675.099324,
+    "ast_hash": "edb1d3c252097afd067cba90a1ef6716",
+    "semantic_hash": "edb1d3c252097afd067cba90a1ef6716"
+  },
+  "App/website.py": {
+    "mtime": 1787493251.2368653,
+    "seen": 1787735675.099324,
+    "ast_hash": "abf2e9b0d85b57684406fcb76087d8c1",
+    "semantic_hash": "abf2e9b0d85b57684406fcb76087d8c1"
+  },
+  "App/README.md": {
+    "mtime": 1787493251.0178096,
+    "seen": 1787735675.099324,
+    "ast_hash": "cd45b785543cce19e1725a7351eeaf41",
+    "semantic_hash": "cd45b785543cce19e1725a7351eeaf41"
+  },
+  "App/requirements.txt": {
+    "mtime": 1787493250.9613588,
+    "seen": 1787735675.099324,
+    "ast_hash": "24407b1d4ec4fb654ec2467c602ee1ec",
+    "semantic_hash": "24407b1d4ec4fb654ec2467c602ee1ec"
+  },
+  "CLAUDE.md": {
+    "mtime": 1787680003.1946301,
+    "seen": 1787735675.099324,
+    "ast_hash": "ac2c6ead491fc982ad05409f193214d7",
+    "semantic_hash": "ac2c6ead491fc982ad05409f193214d7"
+  },
+  "PRD.md": {
+    "mtime": 1787593105.5042553,
+    "seen": 1787735675.099324,
+    "ast_hash": "5dad170c83238acfea5d66cdf4a39a4e",
+    "semantic_hash": "5dad170c83238acfea5d66cdf4a39a4e"
+  },
+  "Report1.md": {
+    "mtime": 1787683323.1495023,
+    "seen": 1787735675.099324,
+    "ast_hash": "d69cf34c8688ce4ad436940f75592d23",
+    "semantic_hash": "d69cf34c8688ce4ad436940f75592d23"
+  }
+}

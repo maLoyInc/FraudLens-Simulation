@@ -1,0 +1,29 @@
+# FraudLens v2 runtime and training environment.
+#
+# These are the versions the v2 artifacts in models/v2/ were trained and
+# verified with, on Python 3.14.6. They differ from App/requirements.txt on
+# purpose: that file pins the legacy environment (pandas 2.2.3, numpy 2.1.3,
+# scikit-learn 1.6.1, xgboost 3.0.0), and those pins have no wheels for this
+# Python. Because the v2 artifacts are trained by training/scripts/ inside this
+# environment, there is no cross-version unpickling of a legacy model; the
+# legacy .pkl files under App/ are left untouched and are still loadable by the
+# legacy environment.
+#
+# Do not bump scikit-learn, xgboost, numpy or pandas without re-running
+# training/scripts/03_train_xgboost.py and the test suite: the joblib artifacts
+# are version sensitive.
+
+pandas==3.0.5
+numpy==2.5.1
+pyarrow==25.0.1
+scikit-learn==1.9.0
+xgboost==3.4.1
+joblib==1.5.3
+streamlit==1.62.0
+
+# Training only. The application package never imports these; the guard in
+# tests/test_runtime_safety.py enforces that.
+imbalanced-learn==0.14.2
+
+# Verification only.
+pytest==9.1.1

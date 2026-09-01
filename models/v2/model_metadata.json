@@ -1,0 +1,193 @@
+{
+  "name": "fraudlens-xgboost",
+  "version": "v2",
+  "created_utc": "2026-08-27T17:19:19+00:00",
+  "algorithm": "XGBClassifier",
+  "xgb_params": {
+    "n_estimators": 50,
+    "max_depth": 7,
+    "random_state": 101
+  },
+  "decision_rule": "model.predict, i.e. predict_proba >= 0.50",
+  "feature_order": [
+    "category",
+    "amt",
+    "gender",
+    "state",
+    "city",
+    "street",
+    "zip",
+    "job",
+    "age",
+    "day_of_week",
+    "transaction_hour",
+    "transaction_min",
+    "transaction_seconds",
+    "transaction_date",
+    "transaction_month",
+    "transaction_distance"
+  ],
+  "n_features": 16,
+  "categorical_features": [
+    "category",
+    "gender",
+    "state",
+    "city",
+    "street",
+    "job",
+    "day_of_week"
+  ],
+  "numeric_features": [
+    "amt",
+    "zip",
+    "age",
+    "transaction_hour",
+    "transaction_min",
+    "transaction_seconds",
+    "transaction_date",
+    "transaction_month",
+    "transaction_distance"
+  ],
+  "target": "is_fraud",
+  "changes_vs_legacy": {
+    "removed": [
+      "city_pop"
+    ],
+    "added": [
+      "transaction_seconds"
+    ],
+    "legacy_feature_order": [
+      "category",
+      "amt",
+      "gender",
+      "state",
+      "city",
+      "street",
+      "zip",
+      "city_pop",
+      "job",
+      "age",
+      "day_of_week",
+      "transaction_min",
+      "transaction_hour",
+      "transaction_date",
+      "transaction_month",
+      "transaction_distance"
+    ]
+  },
+  "month_representation": "integer 1-12; month names are presentation only",
+  "day_of_week_representation": "English day name string, ordinal encoded",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 101,
+    "stratified": false
+  },
+  "imbalance_handling": {
+    "method": "RandomUnderSampler",
+    "random_state": 101,
+    "applied_to": "training split only"
+  },
+  "encoder": "OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1), fitted on training split",
+  "scaler": "StandardScaler, fitted on the resampled training split",
+  "unseen_categorical_values_in_test": 0,
+  "artifacts": {
+    "encoder": "ordinal_encoder.joblib",
+    "scaler": "standard_scaler.joblib",
+    "model": "xgboost_fraud_model.joblib"
+  },
+  "feature_importances": {
+    "amt": 0.483248,
+    "transaction_hour": 0.180032,
+    "category": 0.115809,
+    "age": 0.049328,
+    "transaction_month": 0.016612,
+    "transaction_seconds": 0.015554,
+    "gender": 0.015235,
+    "state": 0.015066,
+    "job": 0.014861,
+    "street": 0.014409,
+    "city": 0.014062,
+    "transaction_date": 0.013984,
+    "day_of_week": 0.013496,
+    "zip": 0.013066,
+    "transaction_min": 0.012895,
+    "transaction_distance": 0.012341
+  },
+  "metrics": {
+    "primary_imbalanced_test": {
+      "split": "held-out test split (natural imbalance)",
+      "n": 259335,
+      "n_fraud": 1501,
+      "fraud_pct": 0.5788,
+      "accuracy": 0.975183,
+      "precision_fraud": 0.186507,
+      "recall_fraud": 0.978015,
+      "f1_fraud": 0.313274,
+      "roc_auc": 0.997205,
+      "average_precision": 0.816777,
+      "confusion_matrix": {
+        "TN": 251431,
+        "FP": 6403,
+        "FN": 33,
+        "TP": 1468
+      }
+    },
+    "legacy_style_balanced_test": {
+      "split": "held-out test split, undersampled 50/50 (legacy-comparable)",
+      "n": 3002,
+      "n_fraud": 1501,
+      "fraud_pct": 50.0,
+      "accuracy": 0.97435,
+      "precision_fraud": 0.970899,
+      "recall_fraud": 0.978015,
+      "f1_fraud": 0.974444,
+      "roc_auc": 0.997322,
+      "average_precision": 0.997401,
+      "confusion_matrix": {
+        "TN": 1457,
+        "FP": 44,
+        "FN": 33,
+        "TP": 1468
+      }
+    },
+    "external_holdout_fraudTest": {
+      "split": "fraudTest.csv, never seen in training",
+      "n": 555719,
+      "n_fraud": 2145,
+      "fraud_pct": 0.386,
+      "accuracy": 0.978055,
+      "precision_fraud": 0.145478,
+      "recall_fraud": 0.961305,
+      "f1_fraud": 0.252712,
+      "roc_auc": 0.995598,
+      "average_precision": 0.737411,
+      "confusion_matrix": {
+        "TN": 541462,
+        "FP": 12112,
+        "FN": 83,
+        "TP": 2062
+      }
+    },
+    "cross_validation": {
+      "scoring": "roc_auc",
+      "folds": 5,
+      "scores": [
+        0.997518,
+        0.995478,
+        0.996181,
+        0.997883,
+        0.997334
+      ],
+      "mean": 0.996879,
+      "std": 0.000902
+    }
+  },
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "joblib": "1.5.3"
+  }
+}

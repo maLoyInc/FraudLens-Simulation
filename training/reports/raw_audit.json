@@ -1,0 +1,448 @@
+{
+  "archive": "Data\\archive.zip",
+  "archive_bytes": 211766662,
+  "members": {
+    "fraudTrain.csv": {
+      "member": "fraudTrain.csv",
+      "rows": 1296675,
+      "columns": [
+        "trans_date_trans_time",
+        "cc_num",
+        "merchant",
+        "category",
+        "amt",
+        "gender",
+        "street",
+        "city",
+        "state",
+        "zip",
+        "lat",
+        "long",
+        "city_pop",
+        "job",
+        "dob",
+        "merch_lat",
+        "merch_long",
+        "is_fraud"
+      ],
+      "dtypes": {
+        "trans_date_trans_time": "str",
+        "cc_num": "int64",
+        "merchant": "str",
+        "category": "str",
+        "amt": "float64",
+        "gender": "str",
+        "street": "str",
+        "city": "str",
+        "state": "str",
+        "zip": "int64",
+        "lat": "float64",
+        "long": "float64",
+        "city_pop": "int64",
+        "job": "str",
+        "dob": "str",
+        "merch_lat": "float64",
+        "merch_long": "float64",
+        "is_fraud": "int64"
+      },
+      "nulls": {},
+      "duplicate_rows_full": 0,
+      "class_balance": {
+        "legit": 1289169,
+        "fraud": 7506,
+        "fraud_pct": 0.5789
+      },
+      "unique_counts": {
+        "cc_num": 983,
+        "merchant": 693,
+        "category": 14,
+        "job": 494,
+        "state": 51,
+        "city": 894,
+        "street": 983,
+        "zip": 970,
+        "gender": 2
+      },
+      "time_span": {
+        "min": "2019-01-01 00:00:18",
+        "max": "2020-06-21 12:13:37"
+      },
+      "seconds_present": {
+        "distinct_second_values": 60,
+        "nonzero_second_pct": 98.3428
+      },
+      "merchant_coordinate": {
+        "by_merchant": {
+          "groups": 693,
+          "groups_with_one": 0,
+          "groups_with_many": 693,
+          "max_distinct": 4403,
+          "mean_distinct": 1871.0952,
+          "pct_unambiguous": 0.0
+        },
+        "by_merchant_category": {
+          "groups": 700,
+          "groups_with_one": 0,
+          "groups_with_many": 700,
+          "max_distinct": 2736,
+          "mean_distinct": 1852.3857,
+          "pct_unambiguous": 0.0
+        }
+      },
+      "customer_vs_merchant_offset": {
+        "abs_dlat": {
+          "min": 0.0,
+          "max": 0.999999,
+          "mean": 0.500263
+        },
+        "abs_dlon": {
+          "min": 0.0,
+          "max": 0.999997,
+          "mean": 0.500337
+        },
+        "haversine_km": {
+          "min": 0.0223,
+          "p05": 24.7407,
+          "median": 78.2318,
+          "p95": 120.4954,
+          "max": 152.1172,
+          "mean": 76.1147,
+          "std": 29.1169
+        },
+        "by_fraud_class_median_km": {
+          "legit": 78.233,
+          "fraud": 77.932
+        }
+      },
+      "location_cascade": {
+        "state_to_city": {
+          "groups": 51,
+          "groups_with_one": 3,
+          "groups_with_many": 48,
+          "max_distinct": 67,
+          "mean_distinct": 18.1961,
+          "pct_unambiguous": 5.8824
+        },
+        "state_city_to_street": {
+          "groups": 928,
+          "groups_with_one": 889,
+          "groups_with_many": 39,
+          "max_distinct": 5,
+          "mean_distinct": 1.0593,
+          "pct_unambiguous": 95.7974
+        },
+        "state_city_street_to_zip": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "state_city_street_zip_to_coords": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "street_to_ccnum": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        }
+      },
+      "identity": {
+        "ccnum_to_street": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "ccnum_to_coords": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "ccnum_to_job": {
+          "groups": 983,
+          "groups_with_one": 983,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        }
+      },
+      "numeric_ranges": {
+        "amt": {
+          "min": 1.0,
+          "max": 28948.9,
+          "median": 47.52
+        },
+        "age": {
+          "min": 14,
+          "max": 96,
+          "median": 44
+        },
+        "zip": {
+          "min": 1257,
+          "max": 99783
+        },
+        "city_pop": {
+          "min": 23,
+          "max": 2906700
+        }
+      },
+      "categories": [
+        "entertainment",
+        "food_dining",
+        "gas_transport",
+        "grocery_net",
+        "grocery_pos",
+        "health_fitness",
+        "home",
+        "kids_pets",
+        "misc_net",
+        "misc_pos",
+        "personal_care",
+        "shopping_net",
+        "shopping_pos",
+        "travel"
+      ],
+      "genders": [
+        "F",
+        "M"
+      ]
+    },
+    "fraudTest.csv": {
+      "member": "fraudTest.csv",
+      "rows": 555719,
+      "columns": [
+        "trans_date_trans_time",
+        "cc_num",
+        "merchant",
+        "category",
+        "amt",
+        "gender",
+        "street",
+        "city",
+        "state",
+        "zip",
+        "lat",
+        "long",
+        "city_pop",
+        "job",
+        "dob",
+        "merch_lat",
+        "merch_long",
+        "is_fraud"
+      ],
+      "dtypes": {
+        "trans_date_trans_time": "str",
+        "cc_num": "int64",
+        "merchant": "str",
+        "category": "str",
+        "amt": "float64",
+        "gender": "str",
+        "street": "str",
+        "city": "str",
+        "state": "str",
+        "zip": "int64",
+        "lat": "float64",
+        "long": "float64",
+        "city_pop": "int64",
+        "job": "str",
+        "dob": "str",
+        "merch_lat": "float64",
+        "merch_long": "float64",
+        "is_fraud": "int64"
+      },
+      "nulls": {},
+      "duplicate_rows_full": 0,
+      "class_balance": {
+        "legit": 553574,
+        "fraud": 2145,
+        "fraud_pct": 0.386
+      },
+      "unique_counts": {
+        "cc_num": 924,
+        "merchant": 693,
+        "category": 14,
+        "job": 478,
+        "state": 50,
+        "city": 849,
+        "street": 924,
+        "zip": 912,
+        "gender": 2
+      },
+      "time_span": {
+        "min": "2020-06-21 12:14:25",
+        "max": "2020-12-31 23:59:34"
+      },
+      "seconds_present": {
+        "distinct_second_values": 60,
+        "nonzero_second_pct": 98.3672
+      },
+      "merchant_coordinate": {
+        "by_merchant": {
+          "groups": 693,
+          "groups_with_one": 0,
+          "groups_with_many": 693,
+          "max_distinct": 1859,
+          "mean_distinct": 801.9019,
+          "pct_unambiguous": 0.0
+        },
+        "by_merchant_category": {
+          "groups": 700,
+          "groups_with_one": 0,
+          "groups_with_many": 700,
+          "max_distinct": 1226,
+          "mean_distinct": 793.8829,
+          "pct_unambiguous": 0.0
+        }
+      },
+      "customer_vs_merchant_offset": {
+        "abs_dlat": {
+          "min": 1e-06,
+          "max": 0.999997,
+          "mean": 0.500283
+        },
+        "abs_dlon": {
+          "min": 5e-06,
+          "max": 0.999999,
+          "mean": 0.500164
+        },
+        "haversine_km": {
+          "min": 0.1239,
+          "p05": 24.7971,
+          "median": 78.1795,
+          "p95": 120.5108,
+          "max": 150.9225,
+          "mean": 76.1049,
+          "std": 29.1171
+        },
+        "by_fraud_class_median_km": {
+          "legit": 78.1789,
+          "fraud": 78.5934
+        }
+      },
+      "location_cascade": {
+        "state_to_city": {
+          "groups": 50,
+          "groups_with_one": 2,
+          "groups_with_many": 48,
+          "max_distinct": 61,
+          "mean_distinct": 17.6,
+          "pct_unambiguous": 4.0
+        },
+        "state_city_to_street": {
+          "groups": 880,
+          "groups_with_one": 845,
+          "groups_with_many": 35,
+          "max_distinct": 4,
+          "mean_distinct": 1.05,
+          "pct_unambiguous": 96.0227
+        },
+        "state_city_street_to_zip": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "state_city_street_zip_to_coords": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "street_to_ccnum": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        }
+      },
+      "identity": {
+        "ccnum_to_street": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "ccnum_to_coords": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        },
+        "ccnum_to_job": {
+          "groups": 924,
+          "groups_with_one": 924,
+          "groups_with_many": 0,
+          "max_distinct": 1,
+          "mean_distinct": 1.0,
+          "pct_unambiguous": 100.0
+        }
+      },
+      "numeric_ranges": {
+        "amt": {
+          "min": 1.0,
+          "max": 22768.11,
+          "median": 47.29
+        },
+        "age": {
+          "min": 15,
+          "max": 96,
+          "median": 45
+        },
+        "zip": {
+          "min": 1257,
+          "max": 99921
+        },
+        "city_pop": {
+          "min": 23,
+          "max": 2906700
+        }
+      },
+      "categories": [
+        "entertainment",
+        "food_dining",
+        "gas_transport",
+        "grocery_net",
+        "grocery_pos",
+        "health_fitness",
+        "home",
+        "kids_pets",
+        "misc_net",
+        "misc_pos",
+        "personal_care",
+        "shopping_net",
+        "shopping_pos",
+        "travel"
+      ],
+      "genders": [
+        "F",
+        "M"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, temporary files, debug dumps
+*.log
+logs/
+tmp/
+*.tmp
+debug/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+.streamlit/secrets.toml
+
+# Data. The raw archive is licensed research data and is kept out of the public
+# source tree (CLAUDE.md sections 4 and 29); processed outputs and the reference
+# tables are reproducible from it with training/scripts/02_build_processed.py.
+Data/
+!Data/.gitkeep
+
+# Model artifacts are reproducible from training/scripts/03_train_xgboost.py.
+# Drop these two lines if the thesis submission needs the binaries in-repo.
+models/v2/*.joblib
+models/legacy/*.pkl

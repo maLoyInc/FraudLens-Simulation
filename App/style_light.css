@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Design Tokens — Light Theme
+   ========================================================================== */
+:root {
+    --color-bg: #f6f7f9;
+    --color-surface: #ffffff;
+    --color-text: #1a1d23;
+    --color-text-muted: #5b6270;
+    --color-border: #e0e3e8;
+    --color-primary: #1f4e8c;
+    --color-success: #1a7f4b;
+    --color-warning: #b8720a;
+    --color-danger: #b3261e;
+    --color-accent: #1f4e8c;
+
+    /* Supporting tokens (kept minimal, only what is actually used below) */
+    --color-input-bg: #f1f3f6;
+    --color-hover: #17416f;
+    --color-button-text: #ffffff;
+    --color-focus-ring: rgba(31, 78, 140, 0.35);
+    --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.04);
+    --radius-md: 14px;
+    --radius-sm: 8px;
+}
+
+/* ==========================================================================
+   Global Background & Base Typography
+   ========================================================================== */
+body, .stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+[data-testid="stHeader"] {
+    background-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Comfortable whitespace before each subheading (used for the 3 form
+   sections, and the "Transaction Information" / "Prediction Result"
+   headings) instead of relying on divider lines. */
+h3 {
+    margin-top: 2rem;
+}
+
+[data-testid="stCaptionContainer"] {
+    color: var(--color-text-muted) !important;
+}
+
+/* ==========================================================================
+   Sidebar (styling only — content/structure untouched)
+   ========================================================================== */
+section[data-testid="stSidebar"] {
+    background-color: var(--color-surface);
+    padding: 20px;
+    border-right: 1px solid var(--color-border);
+}
+section[data-testid="stSidebar"] * {
+    color: var(--color-text) !important;
+}
+
+/* ==========================================================================
+   Form Container
+   ========================================================================== */
+[data-testid="stForm"] {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: 20px;
+}
+
+/* ==========================================================================
+   Field Labels
+   ========================================================================== */
+label {
+    color: var(--color-text) !important;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Inputs (text / number / select / textarea)
+   ========================================================================== */
+input, select, textarea {
+    background-color: var(--color-input-bg) !important;
+    color: var(--color-text) !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: var(--radius-sm);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+    outline: none;
+}
+
+input:disabled, select:disabled, textarea:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+button {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+button:hover {
+    border-color: var(--color-primary);
+}
+
+button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+
+/* Primary action: the form submit ("Predict") button */
+[data-testid="stFormSubmitButton"] button {
+    background-color: var(--color-primary);
+    color: var(--color-button-text);
+    border: 1px solid var(--color-primary);
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+}
+
+[data-testid="stFormSubmitButton"] button:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+[data-testid="stFormSubmitButton"] button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+
+/* ==========================================================================
+   Alerts (st.success / st.warning / st.error)
+   ========================================================================== */
+[data-testid="stAlert"] {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+/* ==========================================================================
+   Prediction Result — Fraud Probability metric
+   ========================================================================== */
+[data-testid="stMetricLabel"] {
+    color: var(--color-text-muted);
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--color-text);
+    font-weight: 700;
+}

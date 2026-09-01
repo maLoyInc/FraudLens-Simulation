@@ -1,0 +1,42 @@
+{
+  "feature_order": [
+    "category",
+    "amt",
+    "gender",
+    "state",
+    "city",
+    "street",
+    "zip",
+    "job",
+    "age",
+    "day_of_week",
+    "transaction_hour",
+    "transaction_min",
+    "transaction_seconds",
+    "transaction_date",
+    "transaction_month",
+    "transaction_distance"
+  ],
+  "members": {
+    "fraudTrain.csv": {
+      "rows": 1296675,
+      "fraud": 7506,
+      "distance_km": {
+        "min": 0.0223,
+        "median": 78.2318,
+        "max": 152.1172
+      }
+    },
+    "fraudTest.csv": {
+      "rows": 555719,
+      "fraud": 2145,
+      "distance_km": {
+        "min": 0.1239,
+        "median": 78.1795,
+        "max": 150.9225
+      }
+    }
+  },
+  "locations": 983,
+  "states": 51
+}

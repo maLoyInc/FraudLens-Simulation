@@ -1,0 +1,709 @@
+/* ==========================================================================
+   FraudLens design system - dark only
+
+   Restraint is the whole idea: one background, one hairline, one accent. Groups
+   are separated by space and thin rules rather than by nested cards, so the
+   numbers stay the loudest thing on the page.
+
+   Typography is a system UI stack, so there is no web font to fetch at load;
+   numerals are tabular so amounts, ZIPs, coordinates and probabilities align.
+   ========================================================================== */
+
+:root {
+  --fl-bg:          #0A0C11;
+  --fl-surface:     #101319;   /* inputs and the few filled areas */
+  --fl-surface-hi:  #161A22;   /* hover / open state */
+
+  --fl-line:        #1E232D;   /* the single hairline */
+  --fl-line-hi:     #2B323F;   /* input border, slightly more present */
+
+  --fl-text:        #E9ECF1;
+  --fl-muted:       #8B93A3;
+  --fl-dim:         #5E6675;
+
+  --fl-accent:      #4C8DF6;
+  --fl-accent-hi:   #6EA4FF;
+  --fl-accent-soft: rgba(76, 141, 246, 0.11);
+
+  --fl-safe:        #35A97F;
+  --fl-danger:      #E0555C;
+  --fl-danger-soft: rgba(224, 85, 92, 0.10);
+  --fl-warn:        #C9A15A;
+
+  --fl-radius:      6px;
+  --fl-radius-lg:   10px;
+
+  --fl-font: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fl-mono: "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+}
+
+/* --------------------------------------------------------------------------
+   1. Streamlit chrome
+   The default header, toolbar and footer are removed so the page reads as an
+   application rather than a notebook. The rerun status widget is left alone: it
+   is the only visible signal that a run is in flight.
+   -------------------------------------------------------------------------- */
+#MainMenu,
+header [data-testid="stToolbarActions"],
+[data-testid="stDecoration"],
+[data-testid="stAppDeployButton"],
+[data-testid="stSidebar"],
+footer { display: none !important; }
+
+[data-testid="stHeader"] {
+  background: transparent !important;
+  height: 0 !important;
+  min-height: 0 !important;
+}
+
+body,
+[data-testid="stAppViewContainer"],
+[data-testid="stAppViewContainer"] > .main {
+  background: var(--fl-bg) !important;
+  color: var(--fl-text);
+}
+
+/* A narrow measure is most of the elegance: long lines read as a dashboard,
+   short ones as a form. */
+[data-testid="stMainBlockContainer"] {
+  padding: 2.6rem 2rem 5rem;
+  max-width: 880px;
+}
+
+html, body, [data-testid="stAppViewContainer"] * {
+  font-family: var(--fl-font);
+  font-variant-numeric: tabular-nums;
+}
+
+[data-testid="stVerticalBlock"] { gap: 0.6rem; }
+
+/* Streamlit emits one wrapper per markdown call; empty ones would add gaps. */
+[data-testid="stElementContainer"]:has(> [data-testid="stMarkdownContainer"]:empty) {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   2. Brand bar
+   No panel, no fill: a wordmark on the left, quiet metadata on the right, and
+   one hairline underneath.
+   -------------------------------------------------------------------------- */
+.fl-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1.15rem;
+  border-bottom: 1px solid var(--fl-line);
+  margin-bottom: 2.1rem;
+}
+
+.fl-brand { display: flex; align-items: center; gap: 0.65rem; }
+
+.fl-brand__mark {
+  width: 26px; height: 26px;
+  flex: 0 0 auto;
+  display: grid; place-items: center;
+}
+.fl-brand__mark svg { width: 20px; height: 20px; display: block; }
+
+.fl-brand__name {
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+.fl-brand__tag { font-size: 0.72rem; color: var(--fl-dim); }
+
+.fl-topbar__meta {
+  display: flex; align-items: center; gap: 1rem;
+  font-size: 0.7rem;
+  color: var(--fl-dim);
+}
+/* Metadata, not badges: plain text with a hairline divider between items. */
+.fl-chip { white-space: nowrap; }
+.fl-chip + .fl-chip { padding-left: 1rem; border-left: 1px solid var(--fl-line); }
+.fl-chip--live { color: var(--fl-muted); }
+
+/* --------------------------------------------------------------------------
+   3. Stepper
+   A rail of small markers rather than five boxed tabs. The active step is the
+   only one at full contrast; done steps are quietly ticked.
+   -------------------------------------------------------------------------- */
+.fl-stepper {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 2.2rem;
+}
+
+.fl-step {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  position: relative;
+  padding-right: 0.75rem;
+}
+/* The connector between markers. */
+.fl-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0.55rem;
+  height: 1px;
+  background: var(--fl-line);
+}
+
+.fl-step__num {
+  flex: 0 0 auto;
+  width: 20px; height: 20px;
+  display: grid; place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--fl-line-hi);
+  font-size: 0.63rem;
+  font-weight: 600;
+  color: var(--fl-dim);
+  background: var(--fl-bg);
+}
+.fl-step__label {
+  font-size: 0.755rem;
+  color: var(--fl-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fl-step--done .fl-step__num { border-color: transparent; color: var(--fl-safe); }
+.fl-step--done .fl-step__label { color: var(--fl-muted); }
+
+.fl-step--active .fl-step__num {
+  border-color: var(--fl-accent);
+  background: var(--fl-accent-soft);
+  color: var(--fl-accent-hi);
+}
+.fl-step--active .fl-step__label { color: var(--fl-text); font-weight: 560; }
+
+/* --------------------------------------------------------------------------
+   4. Step heading, field labels, small print
+   -------------------------------------------------------------------------- */
+.fl-panel-head { margin: 0 0 1.9rem; }
+.fl-panel-head__eyebrow {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+  margin-bottom: 0.55rem;
+}
+.fl-panel-head__title {
+  font-size: 1.72rem;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
+}
+/* Streamlit's markdown container declares `p, ol, ul, dl, li { font-size:
+   inherit }` from a generated class, which outranks a plain class selector, so
+   text inside a <p> or a list has to state its size with !important. */
+.fl-panel-head__desc {
+  font-size: 0.845rem !important;
+  color: var(--fl-muted);
+  line-height: 1.65 !important;
+  max-width: 60ch;
+  margin: 0 !important;
+}
+
+.fl-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.28rem;
+  font-size: 0.76rem;
+  font-weight: 560;
+  color: var(--fl-muted);
+  margin: 0.55rem 0 0.35rem;
+}
+/* Required marker: a red asterisk and nothing else (PRD section 18). */
+.fl-label__req { color: var(--fl-danger); font-weight: 700; line-height: 1; }
+.fl-label__opt { color: var(--fl-dim); font-size: 0.7rem; font-weight: 400; }
+
+.fl-hint {
+  font-size: 0.71rem !important;
+  color: var(--fl-dim);
+  line-height: 1.5 !important;
+  margin: 0.35rem 0 0 !important;
+}
+
+.fl-section-title {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+  margin: 0.3rem 0 0.75rem;
+}
+
+.fl-divider { height: 1px; background: var(--fl-line); margin: 2rem 0 1.4rem; }
+
+/* --------------------------------------------------------------------------
+   5. Form controls
+   Streamlit's own labels are collapsed in Python; the visible label is the
+   .fl-label above each widget, so these rules only style the control itself.
+
+   Streamlit 1.62 builds selects on react-aria (`.react-aria-ComboBox`), and
+   draws the text-input frame on the wrapper rather than the <input>, so both
+   the wrapper and the field are restyled to keep one border, not two.
+   -------------------------------------------------------------------------- */
+[data-testid="stTextInputRootElement"],
+[data-testid="stNumberInputContainer"],
+.react-aria-ComboBox [role="group"] {
+  background: var(--fl-surface) !important;
+  border: 1px solid var(--fl-line-hi) !important;
+  border-radius: var(--fl-radius) !important;
+  box-shadow: none !important;
+}
+
+.stTextInput input,
+.stNumberInput input {
+  background: transparent !important;
+  border: none !important;
+  border-radius: var(--fl-radius) !important;
+  color: var(--fl-text) !important;
+  font-size: 0.875rem !important;
+  box-shadow: none !important;
+  padding: 0.55rem 0.75rem !important;
+  height: 38px !important;
+}
+.stTextInput input::placeholder,
+.stNumberInput input::placeholder { color: var(--fl-dim) !important; }
+
+.react-aria-ComboBox [role="group"] { min-height: 40px !important; }
+.react-aria-ComboBox input {
+  background: transparent !important;
+  border: none !important;
+  color: var(--fl-text) !important;
+  font-size: 0.875rem !important;
+}
+.react-aria-ComboBox input::placeholder { color: var(--fl-dim) !important; }
+.react-aria-ComboBox button { background: transparent !important; }
+.react-aria-ComboBox svg { fill: var(--fl-dim) !important; }
+
+[data-testid="stTextInputRootElement"]:focus-within,
+[data-testid="stNumberInputContainer"]:focus-within,
+.react-aria-ComboBox [role="group"]:focus-within {
+  border-color: var(--fl-accent) !important;
+  box-shadow: 0 0 0 3px var(--fl-accent-soft) !important;
+  outline: none !important;
+}
+
+/* A disabled step in the location cascade: still legible, clearly not ready. */
+.react-aria-ComboBox:has(input:disabled) [role="group"] {
+  background: transparent !important;
+  border-color: var(--fl-line) !important;
+}
+.react-aria-ComboBox input:disabled::placeholder { color: var(--fl-dim) !important; }
+.react-aria-ComboBox:has(input:disabled) svg { opacity: 0.4; }
+
+/* PRD sections 6.1 and 10.1: no visible +/- stepper controls. */
+[data-testid="stNumberInputStepUp"],
+[data-testid="stNumberInputStepDown"],
+.stNumberInput button { display: none !important; }
+
+/* Dropdown popover. */
+[data-testid="stSelectboxVirtualDropdown"] {
+  background: var(--fl-surface-hi) !important;
+  border: 1px solid var(--fl-line-hi) !important;
+  border-radius: var(--fl-radius) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55) !important;
+}
+[data-testid="stSelectboxVirtualDropdown"] [role="option"] {
+  color: var(--fl-muted) !important;
+  font-size: 0.83rem !important;
+  border-radius: var(--fl-radius) !important;
+}
+[data-testid="stSelectboxVirtualDropdown"] [role="option"][data-hovered],
+[data-testid="stSelectboxVirtualDropdown"] [role="option"][data-focused],
+[data-testid="stSelectboxVirtualDropdown"] [role="option"][aria-selected="true"] {
+  background: var(--fl-accent-soft) !important;
+  color: var(--fl-text) !important;
+}
+
+/* Buttons: the forward action is the only filled element on a step. */
+.stButton > button,
+[data-testid="stBaseButton-secondary"],
+[data-testid="stBaseButton-primary"] {
+  width: 100%;
+  border-radius: var(--fl-radius) !important;
+  font-size: 0.82rem !important;
+  font-weight: 560 !important;
+  letter-spacing: 0.005em;
+  padding: 0.6rem 1.1rem !important;
+  min-height: 40px !important;
+  box-shadow: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+[data-testid="stBaseButton-secondary"] {
+  background: transparent !important;
+  border: 1px solid var(--fl-line-hi) !important;
+  color: var(--fl-muted) !important;
+}
+[data-testid="stBaseButton-secondary"]:hover {
+  border-color: var(--fl-dim) !important;
+  color: var(--fl-text) !important;
+}
+
+[data-testid="stBaseButton-primary"] {
+  background: var(--fl-accent) !important;
+  border: 1px solid var(--fl-accent) !important;
+  color: #fff !important;
+}
+[data-testid="stBaseButton-primary"]:hover {
+  background: var(--fl-accent-hi) !important;
+  border-color: var(--fl-accent-hi) !important;
+}
+.stButton > button:focus-visible { box-shadow: 0 0 0 3px var(--fl-accent-soft) !important; }
+
+/* --------------------------------------------------------------------------
+   6. Composite controls
+   These hook onto the `st-key-<key>` class Streamlit puts on a keyed
+   st.container, which is what lets several widgets share one visual frame.
+   -------------------------------------------------------------------------- */
+
+/* Amount: the currency mark is drawn on the container, so the field itself
+   stays a plain text input the user can type a formatted number into. */
+.st-key-fl_amount { position: relative; }
+.st-key-fl_amount::before {
+  content: "$";
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  pointer-events: none;
+  color: var(--fl-dim);
+  font-size: 0.9rem;
+}
+.st-key-fl_amount .stTextInput input {
+  padding-left: 1.95rem !important;
+  font-size: 1rem !important;
+  font-weight: 560 !important;
+}
+
+/* Time: three selects presented as a single HH : MM : SS control. The frame is
+   drawn once on the container, so each select gives up its own border, fill and
+   chevron. */
+.st-key-fl_time {
+  border: 1px solid var(--fl-line-hi);
+  border-radius: var(--fl-radius);
+  background: var(--fl-surface);
+  padding: 0.25rem 0.5rem;
+  /* Six digits and two colons: a full-width frame would look like a mistake. */
+  max-width: 300px;
+}
+.st-key-fl_time:focus-within {
+  border-color: var(--fl-accent);
+  box-shadow: 0 0 0 3px var(--fl-accent-soft);
+}
+.st-key-fl_time .react-aria-ComboBox [role="group"] {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  min-height: 32px !important;
+}
+.st-key-fl_time .react-aria-ComboBox [role="group"]:focus-within {
+  box-shadow: none !important;
+}
+.st-key-fl_time .react-aria-ComboBox input {
+  font-size: 1rem !important;
+  font-weight: 560 !important;
+  text-align: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.st-key-fl_time .react-aria-ComboBox button { display: none !important; }
+.st-key-fl_time [data-testid="stHorizontalBlock"] { gap: 0 !important; align-items: center; }
+.st-key-fl_time [data-testid="stVerticalBlock"] { gap: 0 !important; }
+/* On a narrow screen Streamlit gives every column `min-width: 100%` so columns
+   stack. HH : MM : SS must stay on one line, so the six parts of this control
+   are allowed to shrink instead. */
+.st-key-fl_time [data-testid="stColumn"] { min-width: 0 !important; }
+.fl-time-sep {
+  display: grid;
+  place-items: center;
+  height: 32px;
+  color: var(--fl-dim);
+  font-size: 0.95rem;
+}
+
+/* Read-only derived value: resolved ZIP, coordinates, distance. Underlined
+   rather than boxed, so it never looks like something to type into. */
+.fl-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  min-height: 40px;
+  padding: 0.55rem 0.05rem;
+  border-bottom: 1px solid var(--fl-line);
+  box-sizing: border-box;
+}
+.fl-readout__value {
+  font-family: var(--fl-mono);
+  font-size: 0.9rem;
+  color: var(--fl-text);
+}
+.fl-readout__unit { font-size: 0.72rem; color: var(--fl-dim); }
+.fl-readout--empty .fl-readout__value { color: var(--fl-dim); }
+
+/* --------------------------------------------------------------------------
+   7. Validation feedback and notes
+   Inline and step-level only; Streamlit's own alert blocks are never used for
+   normal field validation (PRD section 18). A left rule carries the meaning,
+   so no filled panel is needed.
+   -------------------------------------------------------------------------- */
+.fl-errors {
+  border-left: 2px solid var(--fl-danger);
+  background: var(--fl-danger-soft);
+  padding: 0.7rem 0.9rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.fl-errors__title {
+  font-size: 0.755rem;
+  font-weight: 600;
+  color: var(--fl-danger);
+  margin-bottom: 0.3rem;
+}
+.fl-errors ul { margin: 0 !important; padding-left: 1.05rem !important; }
+.fl-errors li {
+  font-size: 0.755rem !important;
+  color: var(--fl-muted);
+  line-height: 1.6 !important;
+}
+
+.fl-note {
+  border-left: 2px solid var(--fl-line-hi);
+  padding: 0.15rem 0 0.15rem 0.9rem;
+  font-size: 0.745rem;
+  color: var(--fl-dim);
+  line-height: 1.65;
+  margin-top: 0.9rem;
+}
+.fl-note strong { color: var(--fl-muted); font-weight: 560; }
+
+/* --------------------------------------------------------------------------
+   8. Review summary
+   Hairline-separated groups, no card. Keys are small and dim, values carry
+   the weight.
+   -------------------------------------------------------------------------- */
+.fl-review { border-top: 1px solid var(--fl-line); }
+.fl-review__group {
+  border-bottom: 1px solid var(--fl-line);
+  padding: 1.1rem 0;
+}
+.fl-review__group-title {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+  margin-bottom: 0.85rem;
+}
+.fl-review__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.95rem 1.6rem;
+}
+.fl-review__k { font-size: 0.685rem; color: var(--fl-dim); margin-bottom: 0.2rem; }
+.fl-review__v {
+  font-size: 0.87rem;
+  color: var(--fl-text);
+  overflow-wrap: anywhere;
+}
+.fl-review__v--mono { font-family: var(--fl-mono); font-size: 0.82rem; }
+.fl-review__v--derived { color: var(--fl-accent-hi); }
+
+/* --------------------------------------------------------------------------
+   9. Prediction result
+   One outlined block, one coloured rule at the top, and the probability set
+   large. Colour appears only where it means safe or fraud.
+   -------------------------------------------------------------------------- */
+.fl-verdict {
+  border: 1px solid var(--fl-line);
+  border-radius: var(--fl-radius-lg);
+  padding: 1.75rem 1.75rem 1.6rem;
+  position: relative;
+  overflow: hidden;
+}
+.fl-verdict::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+}
+.fl-verdict--safe::before  { background: var(--fl-safe); }
+.fl-verdict--fraud::before { background: var(--fl-danger); }
+
+.fl-verdict__row { display: flex; align-items: center; gap: 0.8rem; }
+.fl-verdict__icon {
+  width: 30px; height: 30px;
+  flex: 0 0 auto;
+  display: grid; place-items: center;
+}
+.fl-verdict__icon svg { width: 22px; height: 22px; display: block; }
+
+.fl-verdict__label {
+  font-size: 0.645rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+  margin-bottom: 0.22rem;
+}
+.fl-verdict__status {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.2;
+}
+.fl-verdict--safe  .fl-verdict__status { color: var(--fl-safe); }
+.fl-verdict--fraud .fl-verdict__status { color: var(--fl-danger); }
+
+.fl-prob { margin-top: 1.8rem; }
+.fl-prob__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+.fl-prob__name {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+}
+.fl-prob__value {
+  font-family: var(--fl-mono);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--fl-text);
+}
+
+.fl-prob__track {
+  height: 3px;
+  background: var(--fl-line);
+  overflow: hidden;
+}
+.fl-prob__fill { height: 100%; transition: width 0.4s ease; }
+.fl-verdict--safe  .fl-prob__fill { background: var(--fl-safe); }
+.fl-verdict--fraud .fl-prob__fill { background: var(--fl-danger); }
+.fl-prob__scale {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--fl-mono);
+  font-size: 0.64rem;
+  color: var(--fl-dim);
+  margin-top: 0.35rem;
+}
+.fl-prob__threshold {
+  font-size: 0.71rem;
+  color: var(--fl-dim);
+  line-height: 1.6;
+  margin-top: 0.8rem;
+  max-width: 58ch;
+}
+
+/* Supporting figures: columns divided by hairlines, not boxes. */
+.fl-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0 1.4rem;
+  margin-top: 1.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--fl-line);
+}
+.fl-metric + .fl-metric { padding-left: 1.4rem; border-left: 1px solid var(--fl-line); }
+.fl-metric__k {
+  font-size: 0.63rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fl-dim);
+  margin-bottom: 0.35rem;
+}
+.fl-metric__v {
+  font-family: var(--fl-mono);
+  font-size: 0.98rem;
+  color: var(--fl-text);
+}
+
+.fl-disclaimer {
+  margin-top: 1.6rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--fl-line);
+  font-size: 0.725rem;
+  color: var(--fl-dim);
+  line-height: 1.7;
+}
+.fl-disclaimer__title {
+  font-size: 0.645rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fl-warn);
+  margin-bottom: 0.35rem;
+}
+
+.fl-footer {
+  margin-top: 3.2rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--fl-line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.3rem;
+  font-size: 0.685rem;
+  color: var(--fl-dim);
+}
+
+/* --------------------------------------------------------------------------
+   10. Responsive
+   -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  [data-testid="stMainBlockContainer"] { padding: 1.6rem 1.1rem 4rem; }
+  .fl-panel-head__title { font-size: 1.45rem; }
+  .fl-verdict { padding: 1.35rem 1.15rem; }
+  .fl-verdict__status { font-size: 1.2rem; }
+  .fl-prob__value { font-size: 1.65rem; }
+}
+
+@media (max-width: 640px) {
+  .fl-topbar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  .fl-review__grid { grid-template-columns: 1fr 1fr; }
+  /* Let Streamlit's horizontal blocks wrap instead of squeezing to 40px. */
+  [data-testid="stHorizontalBlock"] { flex-wrap: wrap; }
+  .st-key-fl_time [data-testid="stHorizontalBlock"] { flex-wrap: nowrap; }
+  .st-key-fl_time { max-width: none; }
+  .fl-metric + .fl-metric { padding-left: 0; border-left: none; }
+  .fl-metrics { gap: 1.1rem; }
+  /* Below this width five labels no longer fit; the markers carry the step. */
+  .fl-step__label { display: none; }
+  .fl-step { justify-content: center; padding-right: 0; }
+  .fl-step:not(:last-child)::after { position: static; width: 100%; margin-left: 0.4rem; }
+}
+
+/* Respect a user's reduced-motion preference. */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+
+
+
+
+
+
+
+
+
+

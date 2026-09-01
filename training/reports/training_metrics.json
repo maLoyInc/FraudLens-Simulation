@@ -1,0 +1,69 @@
+{
+  "primary_imbalanced_test": {
+    "split": "held-out test split (natural imbalance)",
+    "n": 259335,
+    "n_fraud": 1501,
+    "fraud_pct": 0.5788,
+    "accuracy": 0.975183,
+    "precision_fraud": 0.186507,
+    "recall_fraud": 0.978015,
+    "f1_fraud": 0.313274,
+    "roc_auc": 0.997205,
+    "average_precision": 0.816777,
+    "confusion_matrix": {
+      "TN": 251431,
+      "FP": 6403,
+      "FN": 33,
+      "TP": 1468
+    }
+  },
+  "legacy_style_balanced_test": {
+    "split": "held-out test split, undersampled 50/50 (legacy-comparable)",
+    "n": 3002,
+    "n_fraud": 1501,
+    "fraud_pct": 50.0,
+    "accuracy": 0.97435,
+    "precision_fraud": 0.970899,
+    "recall_fraud": 0.978015,
+    "f1_fraud": 0.974444,
+    "roc_auc": 0.997322,
+    "average_precision": 0.997401,
+    "confusion_matrix": {
+      "TN": 1457,
+      "FP": 44,
+      "FN": 33,
+      "TP": 1468
+    }
+  },
+  "external_holdout_fraudTest": {
+    "split": "fraudTest.csv, never seen in training",
+    "n": 555719,
+    "n_fraud": 2145,
+    "fraud_pct": 0.386,
+    "accuracy": 0.978055,
+    "precision_fraud": 0.145478,
+    "recall_fraud": 0.961305,
+    "f1_fraud": 0.252712,
+    "roc_auc": 0.995598,
+    "average_precision": 0.737411,
+    "confusion_matrix": {
+      "TN": 541462,
+      "FP": 12112,
+      "FN": 83,
+      "TP": 2062
+    }
+  },
+  "cross_validation": {
+    "scoring": "roc_auc",
+    "folds": 5,
+    "scores": [
+      0.997518,
+      0.995478,
+      0.996181,
+      0.997883,
+      0.997334
+    ],
+    "mean": 0.996879,
+    "std": 0.000902
+  }
+}
